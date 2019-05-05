@@ -1,0 +1,26 @@
+.welcome-wrapper{
+  background-color:var(--blue);
+  position:relative;
+  padding:80px 0px;
+  width:100%;
+  left:0%;
+}
+.welcome{
+  position:relative;
+  box-shadow:0 0 12px black;
+  background-color:var(--gray1);
+  transform:translateX(-50%);
+  border-radius:35px;
+  padding:25px;
+  width:50%;
+  left:50%;
+}
+.welcome .logo{
+  transform:translateX(-50%);
+  position:relative;
+  width:80%;
+  left:50%;
+}
+.welcome p{
+  text-align:center;
+}

@@ -1,0 +1,11 @@
+#!/bin/bash
+source config.sh
+dev=( $(ps aux | grep $SERVER) )
+if [ ${#dev[@]} = "0" ]; then
+  echo "Must activate dev server before you can build"
+  exit
+fi
+wget -r $SERVER 2> /dev/null
+rm -rf build
+mv $SERVER build
+echo "Build complete"

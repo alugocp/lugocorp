@@ -1,0 +1,27 @@
+[
+  {
+    "name":"Web development",
+    "icon":"res/icons/html.svg",
+    "link":"services/web",
+    "text":[
+      "I do web development.",
+      "It's pretty cool."
+    ]
+  },
+  {
+    "name":"Mobile development",
+    "icon":"res/icons/phone.svg",
+    "text":[
+      "I also do mobile development.",
+      "It's pretty cool too."
+    ]
+  },
+  {
+    "name":"Consulting",
+    "icon":"res/icons/html.svg",
+    "text":[
+      "I also do mobile development.",
+      "It's pretty cool too."
+    ]
+  }
+]

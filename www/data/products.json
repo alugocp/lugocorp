@@ -1,0 +1,13 @@
+[
+  {
+    "logo":"res/products/cyan-pepper.svg",
+    "text":[
+      "Cyan Pepper is a webapp that makes research exploration easy."
+    ]
+  },{
+    "logo":"res/products/webdesign.png",
+    "text":[
+      "I do websites."
+    ]
+  }
+]

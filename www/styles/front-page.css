@@ -1,0 +1,67 @@
+/* Services */
+.service{
+  box-shadow:0 0 5px #333;
+  width:calc(33% - 50px);
+  display:inline-block;
+  border-radius:35px;
+  margin:25px;
+}
+.service .service-top{
+  border-radius:35px 35px 0px 0px;
+  background-color:var(--blue);
+  padding:15px 15px 5px 15px;
+  color:var(--gray1);
+}
+.service .service-top h1{
+  margin:0;
+}
+.service .service-top img{
+  transform:scale(1.5);
+}
+.service .service-bot{
+  border-radius:0px 0px 35px 35px;
+  background-color:var(--gray1);
+  padding:5px 10px 20px 10px;
+}
+
+/* Mission */
+.mission{
+  box-shadow:0 0 12px #333;
+  background-color:var(--gray1);
+  border-radius:35px;
+  margin:15px 0;
+  padding:20px;
+}
+
+/* Partners */
+.partner{
+  width:calc(20% - 50px);
+  margin:25px;
+}
+
+/* Products */
+.product{
+  background-color:var(--gray1);
+  box-shadow:0 0 12px #333;
+  width:calc(33% - 100px);
+  display:inline-block;
+  border-radius:35px;
+  text-align:center;
+  padding:25px;
+  margin:25px;
+}
+.product .product-logo{
+  margin-bottom:15px;
+  position:relative;
+  display:block;
+  width:100%;
+}
+
+/* Contact */
+.contact{
+  box-shadow:0 0 12px #333;
+  background-color:var(--gray1);
+  border-radius:35px;
+  margin:15px 0;
+  padding:20px;
+}

@@ -1,0 +1,10 @@
+#!/bin/bash
+source config.sh
+dev=( $(ps aux | grep $SERVER) )
+if [ ${#dev[@]} = "0" ]; then
+  echo "Dev server is already inactive"
+  exit
+fi
+
+kill ${dev[1]}
+[ $? = "0" ] && echo "Dev server terminated"

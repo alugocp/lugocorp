@@ -1,0 +1,27 @@
+[
+  {
+    "name":"Services",
+    "file":"services.php",
+    "color":"gray1"
+  },
+  {
+    "name":"Mission",
+    "file":"mission.php",
+    "color":"blue"
+  },
+  {
+    "name":"Partners",
+    "file":"partners.php",
+    "color":"gray1"
+  },
+  {
+    "name":"Products",
+    "file":"products.php",
+    "color":"blue"
+  },
+  {
+    "name":"Contact",
+    "file":"contact.php",
+    "color":"gray1"
+  }
+]
