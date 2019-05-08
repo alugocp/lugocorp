@@ -2,3 +2,8 @@
 source config.sh
 gnome-terminal -e "php -S $SERVER -t $(pwd)/www"
 [ $? = 0 ] && echo "Dev server is online"
+
+python3 << EOF
+import webbrowser
+webbrowser.open_new_tab("http://localhost:2019")
+EOF

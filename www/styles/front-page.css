@@ -21,7 +21,7 @@
 .service .service-bot{
   border-radius:0px 0px 35px 35px;
   background-color:var(--gray1);
-  padding:5px 10px 20px 10px;
+  padding:15px 25px 25px 25px;
 }
 
 /* Mission */
@@ -64,4 +64,19 @@
   border-radius:35px;
   margin:15px 0;
   padding:20px;
+}
+.contact .icons-wrapper{
+  grid-template-columns:33% 33% 33%;
+  text-align:center;
+  display:grid;
+}
+.contact .icons-col:first-of-type{
+  border-right:solid 2px var(--gray3);
+}
+.contact .icons-col:last-of-type{
+  border-left:solid 2px var(--gray3);
+}
+.contact .icons-wrapper img{
+  margin-top:35px;
+  width:45px;
 }

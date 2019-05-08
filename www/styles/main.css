@@ -12,7 +12,7 @@
 body{
   background-color:var(--gray1);
   font-family:sans-serif;
-  color:var(--gray3);
+  color:var(--gray4);
   padding:0;
   margin:0;
 }
@@ -31,6 +31,19 @@ body{
   width:calc(80% - 70px);
   padding:15px 35px;
   left:10%;
+}
+a{
+  transition:color 0.2s ease;
+  text-decoration:none;
+  color:var(--blue);
+}
+a:visited{
+  text-decoration:none;
+  color:var(--blue);
+}
+a:hover{
+  text-decoration:none;
+  color:#6bbcef;
 }
 
 /* Footer */
