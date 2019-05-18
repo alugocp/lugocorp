@@ -1,5 +1,7 @@
 .welcome-wrapper{
-  background-color:var(--blue);
+  background-image:url("../res/temp-bg.jpg");
+  background-repeat:no-repeat;
+  background-size:100%;
   position:relative;
   padding:80px 0px;
   width:100%;

@@ -1,11 +1,24 @@
 .lugo-navbar{
+  grid-template-columns:80px auto;
   background-color:var(--gray1);
   box-shadow:0 -5px 20px black;
   width:calc(100% - 30px);
   position:relative;
   padding:5px 15px;
+  display:grid;
   z-index:1;
 }
 .lugo-navbar .icon{
   height:80px;
+}
+.lugo-navbar span{
+  line-height:80px;
+  padding-left:12px;
+  margin-left:12px;
+  color:var(--blue);
+  font-weight:bold;
+  font-size:35px;
+}
+.lugo-navbar span:not(:first-of-type){
+  border-left:solid 1px var(--gray2);
 }

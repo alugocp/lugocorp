@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/alternate.css">
     <link rel="stylesheet" href="../../styles/services.css">
+    <script src="../../scripts/jquery.min.js"></script>
+    <script src="../../scripts/lugo.js"></script>
   </head>
   <body class="narrow">
     <?php $prefix="../../";
+      $nav=array(
+        "Tech"=>"#tech","Portfolio"=>"#portfolio"
+      );
       include("../../navbar.php");?>
     <div class="narrow-content">
       <div class="intro-wrapper">
@@ -25,7 +30,7 @@
       </div>
       <div class="separator"></div>
       <div class="skills">
-        <h1>Technologies Used</h1>
+        <h1 id="tech">Technologies Used</h1>
         <div class="table">
           <div class="entry">WebAssembly</div>
           <div class="entry">WordPress</div>
@@ -41,6 +46,17 @@
         Above you'll find listed a number of these technologies.
       </p>
       <div class="separator"></div>
+      <div class="portfolio">
+        <h1 id="portfolio">Portfolio</h1>
+        <div class="wrapper2">
+          <?php $portfolio=json_decode(file_get_contents("../../data/portfolio.json"),true);
+          foreach($portfolio as $project):?>
+            <div class="past-site">
+              <?php foreach($project["text"] as $sentence){ echo($sentence." "); } ?>
+            </div>
+          <?php endforeach?>
+        </div>
+      </div>
     </div>
     <?php include("../../footer.php");?>
   </body>

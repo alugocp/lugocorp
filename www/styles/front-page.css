@@ -1,8 +1,6 @@
 /* Services */
 .service{
   box-shadow:0 0 5px #333;
-  width:calc(33% - 50px);
-  display:inline-block;
   border-radius:35px;
   margin:25px;
 }
@@ -43,8 +41,6 @@
 .product{
   background-color:var(--gray1);
   box-shadow:0 0 12px #333;
-  width:calc(33% - 100px);
-  display:inline-block;
   border-radius:35px;
   text-align:center;
   padding:25px;

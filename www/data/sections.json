@@ -5,8 +5,8 @@
     "color":"gray1"
   },
   {
-    "name":"Mission",
-    "file":"mission.php",
+    "name":"Products",
+    "file":"products.php",
     "color":"blue"
   },
   {
@@ -15,8 +15,8 @@
     "color":"gray1"
   },
   {
-    "name":"Products",
-    "file":"products.php",
+    "name":"Mission",
+    "file":"mission.php",
     "color":"blue"
   },
   {

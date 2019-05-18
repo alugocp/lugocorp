@@ -18,6 +18,14 @@ body{
 }
 
 /* Page content */
+.wrapper3{
+  grid-template-columns:33% 33% 33%;
+  display:grid;
+}
+.wrapper2{
+  grid-template-columns:50% 50%;
+  display:grid;
+}
 .section{
   position:relative;
   width:100%;
@@ -32,7 +40,7 @@ body{
   padding:15px 35px;
   left:10%;
 }
-a{
+a,.a-like{
   transition:color 0.2s ease;
   text-decoration:none;
   color:var(--blue);
@@ -41,8 +49,9 @@ a:visited{
   text-decoration:none;
   color:var(--blue);
 }
-a:hover{
+a:hover,.a-like:hover{
   text-decoration:none;
+  cursor:pointer;
   color:#6bbcef;
 }
 

@@ -5,10 +5,17 @@
     <title>LugoCorp</title>
     <link rel="icon" href="res/favicon.ico">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/lugo.js"></script>
   </head>
   <body>
     <?php
       $prefix="";
+      $nav=array(
+        "Services"=>"#services","Products"=>"#products",
+        "Partners"=>"#partners","Mission"=>"#mission",
+        "Contact"=>"#contact"
+      );
       include("navbar.php");
       include("welcome.php");
     ?>
