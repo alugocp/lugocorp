@@ -1,5 +1,5 @@
 <h1 id="services" style="color:var(--blue)">Services</h1>
-<div class="wrapper3">
+<div class="wrapper3 override-small">
   <?php
     $services=json_decode(file_get_contents("data/services.json"),true);
     foreach($services as $i => $service): ?>

@@ -5,16 +5,24 @@
   </p>
   <div class="icons-wrapper">
     <div class="icons-col">
-      <img src="res/icons/mail.svg"><br>
-      <a href="mailto:alugocp@gmail.com">alugocp@gmail.com</a><br>
-      <img src="res/icons/mail.svg"><br>
-      <a href="https://twitter.com/alugocp/">@alugocp</a>
+      <a href="mailto:alugocp@gmail.com">
+        <img src="res/icons/mail.svg"><br>
+        <span>alugocp@gmail.com</span>
+      </a><br>
+      <a href="https://twitter.com/alugocp/">
+        <img src="res/icons/twitter.svg"><br>
+        <span>@alugocp</span>
+      </a>
     </div>
     <div class="icons-col">
-      <img src="res/icons/mail.svg"><br>
-      <a href="https://www.instagram.com/alugocp1/">@alugocp1</a><br>
-      <img src="res/icons/mail.svg"><br>
-      <a href="https://youtube.com/alexlugo">Alex Lugo</a>
+      <a href="https://www.instagram.com/alugocp1/">
+        <img src="res/icons/instagram.svg"><br>
+        <span>@alugocp1</span>
+      </a><br>
+      <a href="https://youtube.com/alexlugo">
+        <img src="res/icons/youtube.svg"><br>
+        <span>Alex Lugo</span>
+      </a>
     </div>
     <div class="icons-col">
 
