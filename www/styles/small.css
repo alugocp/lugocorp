@@ -41,4 +41,20 @@
   .contact .icons-col span{
     display:none;
   }
+  .lugo-navbar{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .lugo-navbar div{
+    grid-template-columns:100%;
+    display:grid;
+  }
+  .lugo-navbar span{
+    padding:0;
+    margin:0;
+  }
+  .lugo-navbar span:not(:first-of-type){
+    border-top:solid 1px var(--gray2);
+    border-left:none;
+  }
 }

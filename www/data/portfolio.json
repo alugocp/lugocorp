@@ -1,12 +1,20 @@
 [
   {
+    "platform":"web",
     "text":[
       "We built a brand-new website for Victor Ramirez Law LLC."
     ]
   },
   {
+    "platform":"web",
     "text":[
       "We built Chris Cobbs his own website."
+    ]
+  },
+  {
+    "platform":"mobile",
+    "text":[
+      "We built TLC Pediatrics their new Baby Book mobile app."
     ]
   }
 ]

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>LugoCorp - Web development</title>
+    <title>LugoCorp - Mobile development</title>
     <link rel="icon" href="../../res/favicon.ico">
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/alternate.css">
@@ -20,30 +20,27 @@
       <div class="intro-wrapper">
         <h1>
           <img class="service-icon" src="../../res/icons/html.svg">
-           Web development
+           Mobile development
         </h1>
         <img class="service-poster" src="../../res/website.png">
         <p>
-          We do web dev here.
-          Like, a lot of web dev.
+          We make a lot of apps.
+          We mostly specialize in Android development but we are expanding into cross-platform mobile development.
         </p>
       </div>
       <div class="separator"></div>
       <div class="skills">
         <h1 id="tech">Technologies Used</h1>
         <div class="table">
-          <div class="entry">WebAssembly</div>
-          <div class="entry">WordPress</div>
-          <div class="entry">Bootstrap</div>
-          <div class="entry">Shiny R</div>
-          <div class="entry">Flask</div>
-          <div class="entry">MySQL</div>
-          <div class="entry">PHP</div>
+          <div class="entry">Java</div>
+          <div class="entry">Kotlin</div>
+          <div class="entry">Apache Cordova</div>
+          <div class="entry">Dart/Flutter</div>
+          <div class="entry">Corona</div>
         </div>
       </div>
       <p>
-        Here at LugoCorp we use a variety of technologies to bring the website of your dreams to life.
-        Above you'll find listed a number of these technologies.
+        Yeah, we've got some experience in mobile development.
       </p>
       <div class="separator"></div>
       <div class="portfolio">
@@ -51,7 +48,7 @@
         <div class="wrapper2">
           <?php $portfolio=json_decode(file_get_contents("../../data/portfolio.json"),true);
           foreach($portfolio as $project):
-            if($project["platform"]=="web"): ?>
+            if($project["platform"]=="mobile"): ?>
               <div class="past-site">
                 <?php foreach($project["text"] as $sentence){ echo($sentence." "); } ?>
               </div>

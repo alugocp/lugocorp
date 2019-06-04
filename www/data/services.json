@@ -13,29 +13,14 @@
   {
     "name":"Mobile development",
     "icon":"res/icons/phone.svg",
+    "link":"services/mobile",
     "text":[
-      "I also do mobile development.",
-      "It's pretty cool too."
+      "In addition to websites, LugoCorp also designs mobile applications.",
+      "We have accumulated 6 years of mobile development experience that we're excited to put to use for our clients."
     ]
   },
   {
     "name":"Consulting",
-    "icon":"res/icons/html.svg",
-    "text":[
-      "I also do mobile development.",
-      "It's pretty cool too."
-    ]
-  },
-  {
-    "name":"Videography",
-    "icon":"res/icons/html.svg",
-    "text":[
-      "I also do mobile development.",
-      "It's pretty cool too."
-    ]
-  },
-  {
-    "name":"Brand & Marketing",
     "icon":"res/icons/html.svg",
     "text":[
       "I also do mobile development.",
