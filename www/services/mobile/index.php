@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/alternate.css">
     <link rel="stylesheet" href="../../styles/services.css">
+    <link rel="stylesheet" href="../../styles/alt-small.css">
     <script src="../../scripts/jquery.min.js"></script>
     <script src="../../scripts/lugo.js"></script>
   </head>

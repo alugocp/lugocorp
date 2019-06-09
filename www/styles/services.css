@@ -44,10 +44,6 @@ h1{
 }
 
 /* Portfolio */
-.portfolio-wrapper{
-  grid-template-columns:33% 33% 33%;
-  display:grid;
-}
 .past-site{
   background-color:var(--gray1);
   box-shadow:0 0 12px #333;

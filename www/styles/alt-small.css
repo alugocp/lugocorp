@@ -1,0 +1,28 @@
+@media only screen and (max-width:1500px){
+  .narrow .narrow-content{
+    width:calc(100% - 10px);
+    padding:15px 5px;
+    left:0;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .skills .table{
+    grid-template-columns:100%;
+  }
+  .skills{
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .portfolio .wrapper2{
+    grid-template-columns:100%;
+  }
+  .portfolio{
+    text-align:center;
+  }
+  .service-poster{
+    display:none;
+  }
+}
