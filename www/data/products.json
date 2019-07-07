@@ -2,17 +2,23 @@
   {
     "logo":"res/products/cyan-pepper.svg",
     "text":[
-      "Cyan Pepper is a webapp that makes research exploration easy."
+      "Cyan Pepper is an application that makes research exploration easy.",
+      "Entire fields of science can be open to you at the click of a button!",
+      "Simply search a few keywords into our engine and you'll get extensive networks of research to comb through.",
+      "It's the perfect tool for those looking to become scientists one day."
+    ]
+  },{
+    "logo":"res/products/featherwheel.svg",
+    "text":[
+      "The FeatherWheel IDE combines Gedit's small footprint with Atom's powerful text manipulation.",
+      "This minimalistic text editor is the best choice for those who need to open files in a quick and efficient manner but who still want a modern IDE."
     ]
   },{
     "logo":"res/products/webdesign.png",
     "text":[
-      "Mental Health Bunny"
-    ]
-  },{
-    "logo":"res/products/webdesign.png",
-    "text":[
-      "Baby Book"
+      "Baby Book is our flagship maternity app on Android and iOS.",
+      "Keep track of your infant's growth and development in an organized and accessible manner!",
+      "Schedule appointments, take videos, keep track of height and weight and more with BabyBook."
     ]
   }
 ]

@@ -5,7 +5,7 @@
     foreach($services as $i => $service): ?>
       <div class="service">
         <div class="service-top">
-          <h1><img src="<?php echo($service["icon"]);?>"> <?php echo($service["name"]);?></h1>
+          <h2><img src="<?php echo($service["icon"]);?>"> <?php echo($service["name"]);?></h2>
         </div>
         <div class="service-bot">
           <?php foreach($service["text"] as $sentence){

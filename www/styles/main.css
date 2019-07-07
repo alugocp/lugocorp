@@ -14,8 +14,13 @@ body{
   background-color:var(--gray1);
   font-family:sans-serif;
   color:var(--gray4);
+  line-height:24px;
+  font-size:18px;
   padding:0;
   margin:0;
+}
+h1{
+  font-size:45px;
 }
 
 /* Page content */
@@ -29,6 +34,7 @@ body{
 }
 .section{
   position:relative;
+  padding-bottom:50px;
   width:100%;
   left:0;
 }

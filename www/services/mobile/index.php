@@ -27,21 +27,29 @@
         <p>
           We make a lot of apps.
           We mostly specialize in Android development but we are expanding into cross-platform mobile development.
+          The digital world has continued to expand as more and more people gain access to mobile devices.
+          We recognize the immense potential market open to mobile apps thanks to users around the world.
         </p>
       </div>
       <div class="separator"></div>
       <div class="skills">
         <h1 id="tech">Technologies Used</h1>
         <div class="table">
+          <div class="entry">Arcana</div>
           <div class="entry">Java</div>
           <div class="entry">Kotlin</div>
           <div class="entry">Apache Cordova</div>
           <div class="entry">Dart/Flutter</div>
           <div class="entry">Corona</div>
+          <div class="entry">NativeScript</div>
+          <div class="entry">Native Android</div>
+          <div class="entry">Qt</div>
         </div>
       </div>
       <p>
         Yeah, we've got some experience in mobile development.
+        The list above represents the technologies we've used the most here at LugoCorp.
+        If your prefered language or engine isn't listed up here then let us know, we might already have it on our reading list.
       </p>
       <div class="separator"></div>
       <div class="portfolio">

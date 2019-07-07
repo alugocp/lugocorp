@@ -4,15 +4,15 @@
     "src":"res/partners/ramirez.svg"
   },
   {
-    "name":"Oculus",
-    "src":"res/partners/oculus.png"
+    "name":"Mehta India",
+    "src":"res/partners/mehta.png"
   },
   {
-    "name":"MongoDB",
-    "src":"res/partners/mongodb.png"
+    "name":"Tranzed Alliance",
+    "src":"res/partners/tranzed.png"
   },
   {
-    "name":"Capital One",
-    "src":"res/partners/capital-one.png"
+    "name":"Maryland Workforce Alliance",
+    "src":"res/partners/mwa.png"
   }
 ]

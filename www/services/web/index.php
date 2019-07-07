@@ -27,6 +27,10 @@
         <p>
           We do web dev here.
           Like, a lot of web dev.
+          LugoCorp got started on web development for local customers, and we're excited to expand this service to a wider range of clientelle.
+          We can design and develop front-end UIs to amaze your customers and back-end systems that keep your business running smoothly.
+          Whether you've got a style guide or not we can help develop your brand in the digital world.
+          Our mixed team of designers, artists and coders are ready to help you develop the website of your dreams!
         </p>
       </div>
       <div class="separator"></div>
@@ -37,14 +41,19 @@
           <div class="entry">WordPress</div>
           <div class="entry">Bootstrap</div>
           <div class="entry">Shiny R</div>
-          <div class="entry">Flask</div>
+          <div class="entry">Flask/Jinja</div>
           <div class="entry">MySQL</div>
           <div class="entry">PHP</div>
+          <div class="entry">Node.js</div>
+          <div class="entry">Pug</div>
         </div>
       </div>
       <p>
         Here at LugoCorp we use a variety of technologies to bring the website of your dreams to life.
         Above you'll find listed a number of these technologies.
+        If you're not familiar with any of these technologies don't worry, that's our job!
+        We just like to let people know what our stack may look like.
+        If you do have a preference for which technologies we use for your product then go ahead and let us know.
       </p>
       <div class="separator"></div>
       <div class="portfolio">
