@@ -1,5 +1,5 @@
-<div id="mission" class="mission">
-  <h1 style="color:var(--blue)">Mission</h1>
+<div id="about" class="about">
+  <h1 style="color:var(--blue)">About</h1>
   <p>
     At LugoCorp every employee is either a technologist, an artist or both.
     We believe we have the power and obligation to change the world for the better through combining our collective talents.

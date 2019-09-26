@@ -13,7 +13,7 @@
       $prefix="";
       $nav=array(
         "Services"=>"#services","Products"=>"#products",
-        "Partners"=>"#partners","Mission"=>"#mission",
+        "Partners"=>"#partners","About"=>"#about",
         "Contact"=>"#contact"
       );
       include("navbar.php");

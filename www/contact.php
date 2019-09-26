@@ -1,7 +1,7 @@
 <div id="contact" class="contact">
   <h1 style="color:var(--blue)">Contact</h1>
   <p>
-    Feel free to contact us if you have any questions.
+    Feel free to contact us if you have any questions or would like to know more.
   </p>
   <div class="icons-wrapper">
     <div class="icons-col">

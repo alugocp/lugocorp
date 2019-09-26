@@ -1,6 +1,7 @@
 .welcome-wrapper{
-  background-image:url("../res/temp-bg.jpg");
+  background-image:url("../res/bg.jpg");
   background-repeat:no-repeat;
+  background-position:center;
   background-size:100%;
   position:relative;
   padding:80px 0px;

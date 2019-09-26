@@ -1,4 +1,9 @@
 <h1 id="services" style="color:var(--blue)">Services</h1>
+<p>
+  LugoCorp provides various software development and business-centric services to its customers.
+  Below we have listed a few of our specialties.
+  For inquiries into one of these services, please see our <span class="a-like" onclick="lugo.scroll('#contact')">contact</span> section.
+</p>
 <div class="wrapper3 override-small">
   <?php
     $services=json_decode(file_get_contents("data/services.json"),true);

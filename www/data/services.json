@@ -18,5 +18,15 @@
       "In addition to websites, LugoCorp also designs mobile applications.",
       "We have accumulated 6 years of mobile development experience that we're excited to put to use for our clients."
     ]
+  },
+  {
+    "name":"Data collection and analysis",
+    "icon":"res/icons/phone.svg",
+    "link":"services/mobile",
+    "text":[
+      "Every industry today is fueled by data.",
+      "Good business decisions are made when you can effectively analyze your market.",
+      "LugoCorp has the tools and experience you need to make the smart choice."
+    ]
   }
 ]
