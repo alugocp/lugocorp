@@ -20,9 +20,9 @@
     ]
   },
   {
-    "name":"Data collection and analysis",
-    "icon":"res/icons/phone.svg",
-    "link":"services/mobile",
+    "name":"Data analytics",
+    "icon":"res/icons/data-usage.svg",
+    "link":"services/data",
     "text":[
       "Every industry today is fueled by data.",
       "Good business decisions are made when you can effectively analyze your market.",

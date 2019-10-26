@@ -7,6 +7,7 @@ h1{
 }
 .service-icon{
   background-color:var(--blue);
+  transform:translateY(14px);
   border-radius:50%;
   padding:5px;
   width:50px;

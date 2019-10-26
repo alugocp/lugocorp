@@ -1,3 +1,3 @@
 <div class="footer">
-  Copyright Alex Lugo
+  ©LugoCorp, LLC
 </div>

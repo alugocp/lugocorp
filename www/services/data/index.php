@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>LugoCorp - Mobile development</title>
+    <title>LugoCorp - Data analytics</title>
     <link rel="icon" href="../../res/favicon.ico">
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/alternate.css">
@@ -20,33 +20,31 @@
     <div class="narrow-content">
       <div class="intro-wrapper">
         <h1>
-          <img class="service-icon" src="../../res/icons/phone.svg">
-           Mobile development
+          <img class="service-icon" src="../../res/icons/data-usage.svg">
+           Data analytics
         </h1>
         <img class="service-poster" src="../../res/website.png">
         <p>
-          We make a lot of apps.
-          We mostly specialize in Android development but we are expanding into cross-platform mobile development.
-          The digital world has continued to expand as more and more people gain access to mobile devices.
-          We recognize the immense potential market open to mobile apps thanks to users around the world.
+          At LugoCorp we understand the power in data.
+          That's why we dedicate ourselves to building robust, efficient webscrapers that get us the information we need.
+          Of course what's data if you can't interpret it?
+          We also develop solutions to visualize and analyze results so you can run your business smarter, faster, and more efficient.
         </p>
       </div>
       <div class="separator"></div>
       <div class="skills">
         <h1 id="tech">Technologies Used</h1>
         <div class="table">
-          <div class="entry">Java</div>
-          <div class="entry">Kotlin</div>
-          <div class="entry">Apache Cordova</div>
-          <div class="entry">Dart/Flutter</div>
-          <div class="entry">NativeScript</div>
-          <div class="entry">Qt</div>
+          <div class="entry">Python</div>
+          <div class="entry">Selenium</div>
+          <div class="entry">R</div>
         </div>
       </div>
       <p>
-        Yeah, we've got some experience in mobile development.
-        The list above represents the technologies we've used the most here at LugoCorp.
-        If your prefered language or engine isn't listed up here then let us know, we might already have it on our reading list.
+        There are a variety of ways to build webscrapers and data analysis pipelines.
+        You'll find a few of the tools we like to use listed above.
+        We use the most robust data collection and analysis tools to gain unmatched insight into the world around us.
+        You can gain that insight by partnering with LugoCorp.
       </p>
       <div class="separator"></div>
       <div class="portfolio">
@@ -54,7 +52,7 @@
         <div class="wrapper2">
           <?php $portfolio=json_decode(file_get_contents("../../data/portfolio.json"),true);
           foreach($portfolio as $project):
-            if($project["platform"]=="mobile"): ?>
+            if($project["platform"]=="data"): ?>
               <div class="past-site">
                 <?php foreach($project["text"] as $sentence){ echo($sentence." "); } ?>
               </div>
