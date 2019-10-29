@@ -23,7 +23,7 @@
           <img class="service-icon" src="../../res/icons/html.svg">
            Web development
         </h1>
-        <img class="service-poster" src="../../res/website.png">
+        <img class="service-poster" src="../../res/icons/html.svg">
         <p>
           We do web dev here.
           Like, a lot of web dev.

@@ -13,7 +13,9 @@ h1{
   width:50px;
 }
 .service-poster{
+  background-color:var(--blue);
   shape-outside:margin-box;
+  border-radius:35px;
   margin:15px 25px;
   margin-top:0;
   float:right;

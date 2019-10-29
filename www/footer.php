@@ -1,3 +1,3 @@
 <div class="footer">
-  ©LugoCorp, LLC
+  LugoCorp, LLC
 </div>

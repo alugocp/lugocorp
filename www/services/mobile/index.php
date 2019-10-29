@@ -23,10 +23,10 @@
           <img class="service-icon" src="../../res/icons/phone.svg">
            Mobile development
         </h1>
-        <img class="service-poster" src="../../res/website.png">
+        <img class="service-poster" src="../../res/icons/phone.svg">
         <p>
-          We make a lot of apps.
-          We mostly specialize in Android development but we are expanding into cross-platform mobile development.
+          Yeah websites are cool, but so are mobile apps.
+          We mostly specialize in Android development but are expanding into cross-platform mobile development.
           The digital world has continued to expand as more and more people gain access to mobile devices.
           We recognize the immense potential market open to mobile apps thanks to users around the world.
         </p>

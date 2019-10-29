@@ -23,7 +23,7 @@
           <img class="service-icon" src="../../res/icons/data-usage.svg">
            Data analytics
         </h1>
-        <img class="service-poster" src="../../res/website.png">
+        <img class="service-poster" src="../../res/icons/data-usage.svg">
         <p>
           At LugoCorp we understand the power in data.
           That's why we dedicate ourselves to building robust, efficient webscrapers that get us the information we need.
