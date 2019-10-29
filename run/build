@@ -6,6 +6,15 @@ if [ ${#dev[@]} = "0" ]; then
   exit
 fi
 wget -r $SERVER 2> /dev/null
-rm -rf build
-mv $SERVER build
+rm -rf "$OUTPUT"
+mkdir "$OUTPUT"
+mv $SERVER/* "$OUTPUT"
+rmdir "$SERVER"
+services=( $(ls "$OUTPUT/services") )
+for file in "${services[@]}"; do
+  mv "$OUTPUT/services/$file" "$OUTPUT/services/index.html"
+  mkdir "$OUTPUT/services/$file"
+  mv "$OUTPUT/services/index.html" "$OUTPUT/services/$file/index.html"
+done
+echo "lugocorp.net" > "$OUTPUT/CNAME"
 echo "Build complete"

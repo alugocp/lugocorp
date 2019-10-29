@@ -1,0 +1,15 @@
+#!/bin/bash
+source config.sh
+if [ ! -d "$OUTPUT" ]; then
+  ./run/build
+  [ $? = 0 ] || exit 1
+fi
+
+pushd "$OUTPUT" > /dev/null
+git init
+git remote add origin https://github.com/alugocp/lugocorp.git
+git add .
+git commit -m "Upload on $(date)"
+git push -f origin master
+popd > /dev/null
+rm -rf "$OUTPUT"

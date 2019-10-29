@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf build
 printf "Please add a commit message: "
 read msg
 

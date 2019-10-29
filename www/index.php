@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>LugoCorp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="res/favicon.ico">
     <link rel="stylesheet" href="styles/main.css">
     <script src="scripts/jquery.min.js"></script>

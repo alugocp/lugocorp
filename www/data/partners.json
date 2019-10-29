@@ -1,18 +1,10 @@
 [
   {
-    "name":"RunSafe Security",
-    "src":"res/partners/runsafe.png"
-  },
-  {
     "name":"Mehta India",
     "src":"res/partners/mehta.png"
   },
   {
     "name":"Victor Ramirez Law",
     "src":"res/partners/ramirez.svg"
-  },
-  {
-    "name":"SavvyTech",
-    "src":"res/partners/savvytech.png"
   }
 ]
