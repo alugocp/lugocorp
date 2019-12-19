@@ -16,10 +16,10 @@
   .wrapper2.override-small{
     grid-template-columns:100%;
   }
-  .partners-wrapper{
+  /*.partners-wrapper{
     grid-template-columns:100%;
     display:grid;
-  }
+  }*/
   .partner{
     width:calc(80% - 10px);
     position:relative;

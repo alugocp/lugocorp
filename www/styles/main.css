@@ -67,16 +67,3 @@ a:hover,.a-like:hover{
   font-weight:bold;
   padding:15px 0;
 }
-
-@font-face {
-  font-family:"oswald";
-  src:url("../res/oswald.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family:"roboto";
-  src:url("../res/roboto.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}

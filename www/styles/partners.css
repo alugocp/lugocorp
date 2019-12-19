@@ -1,0 +1,27 @@
+.partners-categories{
+  grid-template-columns:33% 34% 33%;
+  display:grid;
+}
+.partners-categories div{
+  box-shadow:0 0 5px black;
+  padding-bottom:15px;
+  border-radius:15px;
+  text-align:center;
+  overflow:hidden;
+  margin:15px;
+}
+.partners-categories h1{
+  background-color:var(--blue);
+  margin-top:0;
+  color:white;
+}
+.partners-categories img{
+  width:calc(100% - 30px);
+  margin-top:25px;
+}
+
+@media only screen and (max-width:1500px){
+  .partners-categories.override-small{
+    grid-template-columns:100%;
+  }
+}

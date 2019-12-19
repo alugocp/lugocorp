@@ -5,4 +5,5 @@
   foreach($partners as $i => $partner): ?>
     <img class="partner" src="<?php echo($partner["src"]);?>" title="<?php echo($partner["name"]);?>">
 <?php endforeach ?>
+<p>Unfortunately it's impossible to list all of our amazing partners on the front page. That's why we built this <a href="partners">partners page</a> to include everyone!</p>
 </div>
