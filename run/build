@@ -16,5 +16,8 @@ for file in "${services[@]}"; do
   mkdir "$OUTPUT/services/$file"
   mv "$OUTPUT/services/index.html" "$OUTPUT/services/$file/index.html"
 done
+mv "$OUTPUT/partners" "$OUTPUT/partners.html"
+mkdir "$OUTPUT/partners"
+mv "$OUTPUT/partners.html" "$OUTPUT/partners/index.html"
 echo "lugocorp.net" > "$OUTPUT/CNAME"
 echo "Build complete"
