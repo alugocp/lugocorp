@@ -1,7 +1,7 @@
 #!/bin/bash
 source config.sh
 dev=( $(ps aux | grep $SERVER) )
-if [ ${#dev[@]} = "0" ]; then
+if [ ${#dev[@]} -lt 26 ]; then
   echo "Must activate dev server before you can build"
   exit 1
 fi
@@ -19,5 +19,8 @@ done
 mv "$OUTPUT/partners" "$OUTPUT/partners.html"
 mkdir "$OUTPUT/partners"
 mv "$OUTPUT/partners.html" "$OUTPUT/partners/index.html"
+mv "$OUTPUT/team" "$OUTPUT/team.html"
+mkdir "$OUTPUT/team"
+mv "$OUTPUT/team.html" "$OUTPUT/team/index.html"
 echo "lugocorp.net" > "$OUTPUT/CNAME"
 echo "Build complete"
