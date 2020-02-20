@@ -14,15 +14,10 @@
   <body class="narrow">
     <?php $prefix="../";
       $nav=array(
-        "Intro"=>"#intro","Members"=>"#members"
+        "Members"=>"#members"
       );
       include("../navbar.php");?>
     <div class="narrow-content">
-      <h1 id="intro">Intro</h1>
-      <p>
-      Things about the team
-      </p>
-      <div class="separator"></div>
       <h1 id="members">Members</h1>
       <div class = "people override-small">
         <div class = "person">

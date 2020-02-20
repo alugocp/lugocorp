@@ -10,6 +10,6 @@ git init
 git remote add origin https://github.com/alugocp/lugocorp.git
 git add .
 git commit -m "Upload on $(date)"
-git push -f origin master
+git push -f origin master:gh-pages
 popd > /dev/null
 rm -rf "$OUTPUT"
