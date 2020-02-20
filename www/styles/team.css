@@ -1,0 +1,31 @@
+
+.people{
+  grid-template-columns:33% 34% 33%;
+  text-align:center;
+  display:grid;
+}
+
+.person{
+  box-shadow:0 0 5px var(--gray3);
+  border-radius:25px;
+  padding-top:15px;
+  margin:0px 15px;
+  margin-bottom:50px;
+}
+.person h2{
+  color:var(--blue);
+}
+.person h3{
+  color:var(--gray3);
+}
+
+.propic{
+  border-radius:50%;
+  width:60%;
+}
+
+@media only screen and (max-width:1500px){
+  .people.override-small{
+    grid-template-columns:100%;
+  }
+}

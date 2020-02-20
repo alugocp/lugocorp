@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/alternate.css">
     <link rel="stylesheet" href="../../styles/services.css">
-    <link rel="stylesheet" href="../../styles/alt-small.css">
     <script src="../../scripts/jquery.min.js"></script>
     <script src="../../scripts/lugo.js"></script>
   </head>
@@ -53,14 +52,13 @@
       <div class="portfolio">
         <h1 id="portfolio">Portfolio</h1>
         <div class="wrapper2">
-          <?php $portfolio=json_decode(file_get_contents("../../data/portfolio.json"),true);
-          foreach($portfolio as $project):
-            if($project["platform"]=="mobile"): ?>
-              <div class="past-site">
-                <?php foreach($project["text"] as $sentence){ echo($sentence." "); } ?>
-              </div>
-            <?php endif ?>
-          <?php endforeach?>
+          <div class="past-project">
+            <h2>Uh-oh</h2>
+            <span>
+              Looks like we haven't built many apps yet.
+              We're working on it, just stop by again later!
+            </span>
+          </div>
         </div>
       </div>
     </div>

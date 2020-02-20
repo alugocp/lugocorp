@@ -45,12 +45,31 @@ h1{
 .skills h1{
   color:var(--gray1);
 }
+@media only screen and (max-width:800px){
+  .skills .table{
+    grid-template-columns:100%;
+  }
+  .skills{
+    text-align:center;
+  }
+}
 
 /* Portfolio */
-.past-site{
+.past-project{
   background-color:var(--gray1);
   box-shadow:0 0 12px #333;
   border-radius:35px;
   padding:25px;
   margin:15px;
+}
+@media only screen and (max-width:1000px){
+  .portfolio .wrapper2{
+    grid-template-columns:100%;
+  }
+  .portfolio{
+    text-align:center;
+  }
+  .service-poster{
+    display:none;
+  }
 }

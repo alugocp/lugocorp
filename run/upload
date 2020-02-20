@@ -2,7 +2,7 @@
 source config.sh
 if [ ! -d "$OUTPUT" ]; then
   ./run/build
-  [ $? = 0 ] || exit 1
+  [ "$?" = 0 ] || exit 1
 fi
 
 pushd "$OUTPUT" > /dev/null

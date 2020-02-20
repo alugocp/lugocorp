@@ -1,7 +1,3 @@
-@import "front-page.css";
-@import "welcome.css";
-@import "navbar.css";
-@import "small.css";
 
 :root{
   --gray1:#fafafa;
@@ -59,6 +55,32 @@ a:hover,.a-like:hover{
   color:#6bbcef;
 }
 
+/* Navbar */
+.lugo-navbar{
+  grid-template-columns:80px auto;
+  background-color:var(--gray1);
+  box-shadow:0 -5px 20px black;
+  width:calc(100% - 30px);
+  position:relative;
+  padding:5px 15px;
+  display:grid;
+  z-index:1;
+}
+.lugo-navbar .icon{
+  height:80px;
+}
+.lugo-navbar span{
+  line-height:80px;
+  padding-left:12px;
+  margin-left:12px;
+  color:var(--blue);
+  font-weight:bold;
+  font-size:35px;
+}
+.lugo-navbar span:not(:first-of-type){
+  border-left:solid 1px var(--gray2);
+}
+
 /* Footer */
 .footer{
   background-color:var(--gray4);
@@ -66,4 +88,30 @@ a:hover,.a-like:hover{
   text-align:center;
   font-weight:bold;
   padding:15px 0;
+}
+
+/* Small */
+@media only screen and (max-width:800px){
+  .wrapper3.override-small{
+    grid-template-columns:100%;
+  }
+  .wrapper2.override-small{
+    grid-template-columns:100%;
+  }
+  .lugo-navbar{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .lugo-navbar div{
+    grid-template-columns:100%;
+    display:grid;
+  }
+  .lugo-navbar span{
+    padding:0;
+    margin:0;
+  }
+  .lugo-navbar span:not(:first-of-type){
+    border-top:solid 1px var(--gray2);
+    border-left:none;
+  }
 }

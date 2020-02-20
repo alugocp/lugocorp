@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/alternate.css">
     <link rel="stylesheet" href="../../styles/services.css">
-    <link rel="stylesheet" href="../../styles/alt-small.css">
     <script src="../../scripts/jquery.min.js"></script>
     <script src="../../scripts/lugo.js"></script>
   </head>
@@ -60,14 +59,22 @@
       <div class="portfolio">
         <h1 id="portfolio">Portfolio</h1>
         <div class="wrapper2">
-          <?php $portfolio=json_decode(file_get_contents("../../data/portfolio.json"),true);
-          foreach($portfolio as $project):
-            if($project["platform"]=="web"): ?>
-              <div class="past-site">
-                <?php foreach($project["text"] as $sentence){ echo($sentence." "); } ?>
-              </div>
-            <?php endif ?>
-          <?php endforeach?>
+          <div class="past-project">
+            <h2>Victor Ramirez Law, LLC</h2>
+            <span>
+              We built a brand-new website for Victor Ramirez Law, LLC.
+              Victor Ramirez is a local attorney who helps in traffic, injury and immigration cases.
+              You can view the site <a href=\"http://victorramirezlaw.com/\">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Maryland Workforce Alliance</h2>
+            <span>
+              The Maryland Workforce Alliance is a local group dedicated to creating a better job market for Marylanders.
+              LugoCorp helped out by creating the alliance's website.
+              You can help support their cause <a href=\"http://www.mdworkforcealliance.com/\">here</a>.
+            </span>
+          </div>
         </div>
       </div>
     </div>

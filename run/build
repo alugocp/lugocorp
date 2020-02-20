@@ -3,7 +3,7 @@ source config.sh
 dev=( $(ps aux | grep $SERVER) )
 if [ ${#dev[@]} = "0" ]; then
   echo "Must activate dev server before you can build"
-  exit
+  exit 1
 fi
 wget -r $SERVER 2> /dev/null
 rm -rf "$OUTPUT"

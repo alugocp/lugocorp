@@ -7,7 +7,6 @@
     <link rel="icon" href="../res/favicon.ico">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/alternate.css">
-    <link rel="stylesheet" href="../styles/alt-small.css">
     <link rel="stylesheet" href="../styles/partners.css">
     <script src="../scripts/jquery.min.js"></script>
     <script src="../scripts/lugo.js"></script>
@@ -44,6 +43,14 @@
         <div>
           <h1>Manufacturing</h1>
           <img src="../res/partners/mehta.png">
+        </div>
+        <div>
+          <h1>Cybersecurity</h1>
+          <img src="../res/partners/haystack.svg">
+        </div>
+        <div>
+          <h1>Fashion</h1>
+          <img src="../res/partners/enly-logo.png">
         </div>
       </div>
     </div>
