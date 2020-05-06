@@ -45,7 +45,7 @@
           <div class="entry">MySQL</div>
           <div class="entry">PHP</div>
           <div class="entry">Node.js</div>
-          <div class="entry">Pug</div>
+          <div class="entry">React</div>
         </div>
       </div>
       <p>
@@ -64,7 +64,7 @@
             <span>
               We built a brand-new website for Victor Ramirez Law, LLC.
               Victor Ramirez is a local attorney who helps in traffic, injury and immigration cases.
-              You can view the site <a href=\"http://victorramirezlaw.com/\">here</a>.
+              You can view the site <a href="http://victorramirezlaw.com/">here</a>.
             </span>
           </div>
           <div class="past-project">
@@ -72,7 +72,7 @@
             <span>
               The Maryland Workforce Alliance is a local group dedicated to creating a better job market for Marylanders.
               LugoCorp helped out by creating the alliance's website.
-              You can help support their cause <a href=\"http://www.mdworkforcealliance.com/\">here</a>.
+              You can help support their cause <a href="http://www.mdworkforcealliance.com/">here</a>.
             </span>
           </div>
         </div>

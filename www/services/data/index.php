@@ -38,6 +38,8 @@
           <div class="entry">Python</div>
           <div class="entry">Selenium</div>
           <div class="entry">R</div>
+          <div class="entry">BeautifulSoup</div>
+          <div class="entry">Cheerio</div>
         </div>
       </div>
       <p>

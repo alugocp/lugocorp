@@ -5,7 +5,7 @@
     <title>LugoCorp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="Need some software consultants in the DC area? LugoCorp has got you covered! Check out our products today">
-    <meta name="keywords" content="lugocorp,software,software consultancy,tech consultants,lugo,alex lugo,software development,lugo corp">
+    <meta name="keywords" content="lugocorp,software,software consultancy,tech consultants,lugo,alex lugo,software development,lugo corp,software consultant,software consulting,web development,mobile development,web,mobile,web design,mobile design,consulting,developers,software,tech">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="res/favicon.ico">
     <link rel="stylesheet" href="styles/main.css">
@@ -98,15 +98,11 @@
           <h1 id="products" style="color:var(--gray1)">Products</h1>
           <div class="wrapper3 override-small">
             <div class="product">
-              <img class="product-logo" src="res/products/featherwheel.svg">
+              <img class="product-logo" src="res/products/ultradocs.svg">
               <h2>Coming soon...</h2>
-              <p>
-                The FeatherWheel IDE combines Gedit's small footprint with Atom's powerful text manipulation.
-                This minimalistic text editor is the best choice for those who need to open files in a quick and efficient manner but who still want a modern IDE.
-              </p>
             </div>
             <div class="product">
-              <img class="product-logo" src="res/products/ultradocs.svg">
+              <img class="product-logo" src="res/products/thoth-icon.svg">
               <h2>Coming soon...</h2>
             </div>
           </div>

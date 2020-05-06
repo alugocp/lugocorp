@@ -39,8 +39,10 @@
           <div class="entry">Kotlin</div>
           <div class="entry">Apache Cordova</div>
           <div class="entry">Dart/Flutter</div>
-          <div class="entry">NativeScript</div>
           <div class="entry">Qt</div>
+          <div class="entry">React Native</div>
+          <div class="entry">Boden.io</div>
+          <div class="entry">Corona</div>
         </div>
       </div>
       <p>

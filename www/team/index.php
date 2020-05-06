@@ -19,35 +19,41 @@
       include("../navbar.php");?>
     <div class="narrow-content">
       <h1 id="members">Members</h1>
-      <div class = "people override-small">
-        <div class = "person">
+      <div class="people override-small">
+        <div class="person">
           <img class="propic" src="../res/people/alex-lugo.jpg">
           <h2>Alex Lugo</h2>
           <h3>CEO</h3>
         </div>
 
-        <div class = "person">
-          <img class="propic" src="../res/people/placeholder.png">
-          <h2>Samrat Somana</h2>
+        <div class="person">
+          <img class="propic" src="../res/people/samrat-somanna.jpg">
+          <h2>Samrat Somanna</h2>
           <h3>Web scraping</h3>
         </div>
 
-        <div class = "person">
-          <img class="propic" src="../res/people/placeholder.png">
+        <div class="person">
+          <img class="propic" src="../res/people/damien-lutrin.png">
           <h2>Damien Lutrin</h2>
           <h3>Mobile development</h3>
         </div>
 
-        <div class = "person">
-          <img class="propic" src="../res/people/placeholder.png">
-          <h2>Kayvan Fouladi</h2>
+        <div class="person">
+          <img class="propic" src="../res/people/chris-martinez.jpg">
+          <h2>Chris Martinez</h2>
           <h3>Web development</h3>
         </div>
 
-        <div class = "person">
+        <div class="person">
           <img class="propic" src="../res/people/naomi-stewart.jpg">
           <h2>Naomi Stewart</h2>
-          <h3>Backend development</h3>
+          <h3>Backend systems</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/placeholder.png">
+          <h2>Saman Jabari</h2>
+          <h3>Backend systems</h3>
         </div>
 
       </div>
