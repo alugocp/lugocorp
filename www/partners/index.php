@@ -29,28 +29,28 @@
       <div class="partners-categories override-small">
         <div>
           <h1>Design</h1>
-          <img src="../res/partners/tavolo.jpg">
+          <img src="../res/partners/tavolo.jpg" title="Tavolo Solutions">
         </div>
         <div>
           <h1>Education</h1>
-          <img src="../res/partners/nurostream.png">
-          <img src="../res/partners/tranzed.png">
+          <img src="../res/partners/nurostream.png" title="NuroStream, LLC">
+          <img src="../res/partners/tranzed.png" title="Tranzed Academy">
         </div>
         <div>
           <h1>Law</h1>
-          <img src="../res/partners/ramirez.svg">
+          <img src="../res/partners/ramirez.svg" title="Victor Ramirez Law, LLC">
         </div>
         <div>
           <h1>Manufacturing</h1>
-          <img src="../res/partners/mehta.png">
+          <img src="../res/partners/mehta.png" title="Mehta India">
         </div>
         <div>
           <h1>Cybersecurity</h1>
-          <img src="../res/partners/haystack.svg">
+          <img src="../res/partners/haystack.svg" title="Haystack Solutions">
         </div>
         <div>
           <h1>Fashion</h1>
-          <img src="../res/partners/enly-logo.png">
+          <img src="../res/partners/enly-logo.png" title="Enly">
         </div>
       </div>
     </div>

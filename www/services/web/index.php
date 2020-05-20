@@ -60,11 +60,18 @@
         <h1 id="portfolio">Portfolio</h1>
         <div class="wrapper2">
           <div class="past-project">
-            <h2>Victor Ramirez Law, LLC</h2>
+            <h2>Tavolo Solutions</h2>
             <span>
-              We built a brand-new website for Victor Ramirez Law, LLC.
-              Victor Ramirez is a local attorney who helps in traffic, injury and immigration cases.
-              You can view the site <a href="http://victorramirezlaw.com/">here</a>.
+              Tavolo Solutions is a partner company that specializes in UI/UX design and branding.
+              We built their site and continue to collaborate on shared client projects.
+              You can view their site <a href="http://www.tavolosolutions.design/">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Tranzed Academy</h2>
+            <span>
+              We updated the website of a local program that gives high schoolers more flexible school/work hours and apprenticeships.
+              You can visit the program <a href="https://tranzedacademy.org/">here</a>.
             </span>
           </div>
           <div class="past-project">
@@ -73,6 +80,14 @@
               The Maryland Workforce Alliance is a local group dedicated to creating a better job market for Marylanders.
               LugoCorp helped out by creating the alliance's website.
               You can help support their cause <a href="http://www.mdworkforcealliance.com/">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Victor Ramirez Law, LLC</h2>
+            <span>
+              We built a brand-new website for Victor Ramirez Law, LLC.
+              Victor Ramirez is a local attorney who helps in traffic, injury and immigration cases.
+              You can view the site <a href="http://victorramirezlaw.com/">here</a>.
             </span>
           </div>
         </div>

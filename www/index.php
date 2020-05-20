@@ -88,6 +88,30 @@
                 <a href="services/data">more</a>
               </div>
             </div>
+            <div class="service">
+              <div class="service-top">
+                <h2><img src="res/icons/cloud.svg"> Cloud development</h2>
+              </div>
+              <div class="service-bot">
+                <span>
+                  We develop for several cloud hosted backend systems, including AWS and Heroku.
+                  More information coming soon.
+                </span>
+              </div>
+            </div>
+            <div class="service">
+              <div class="service-top">
+                <h2><img src="res/icons/happy.svg"> Consulting</h2>
+              </div>
+              <div class="service-bot">
+                <span>
+                  We provide consulting services for systems design and technical literacy.
+                  It doesn't matter if you want to review possible development pathways for your next project or if you need to translate technical details to management.
+                  We've got you covered!
+                  More information coming soon.
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
