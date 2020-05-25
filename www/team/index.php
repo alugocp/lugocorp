@@ -57,8 +57,8 @@
         </div>
 
         <div class="person">
-          <img class="propic" src="../res/people/nikita-krupkin.jpg">
-          <h2>Nikita Krupkin</h2>
+          <img class="propic" src="../res/people/nikita-krupin.jpg">
+          <h2>Nikita Krupin</h2>
           <h3>Software engineering</h3>
         </div>
 
