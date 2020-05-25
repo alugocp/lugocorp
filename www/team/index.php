@@ -47,13 +47,19 @@
         <div class="person">
           <img class="propic" src="../res/people/naomi-stewart.jpg">
           <h2>Naomi Stewart</h2>
-          <h3>Backend systems</h3>
+          <h3>Software engineering</h3>
         </div>
 
         <div class="person">
           <img class="propic" src="../res/people/placeholder.png">
           <h2>Saman Jabari</h2>
-          <h3>Backend systems</h3>
+          <h3>Software engineering</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/nikita-krupkin.jpg">
+          <h2>Nikita Krupkin</h2>
+          <h3>Software engineering</h3>
         </div>
 
       </div>
