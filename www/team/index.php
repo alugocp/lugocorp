@@ -14,7 +14,8 @@
   <body class="narrow">
     <?php $prefix="../";
       $nav=array(
-        "Members"=>"#members"
+        "Members"=>"#members",
+        "Past"=>"#past"
       );
       include("../navbar.php");?>
     <div class="narrow-content">
@@ -30,18 +31,20 @@
           <img class="propic" src="../res/people/samrat-somanna.jpg">
           <h2>Samrat Somanna</h2>
           <h3>Web scraping</h3>
+          <h3>Software Engineering</h3>
         </div>
 
         <div class="person">
           <img class="propic" src="../res/people/damien-lutrin.png">
           <h2>Damien Lutrin</h2>
-          <h3>Mobile development</h3>
+          <h3>React Native</h3>
         </div>
 
         <div class="person">
           <img class="propic" src="../res/people/chris-martinez.jpg">
           <h2>Chris Martinez</h2>
-          <h3>Web development</h3>
+          <h3>Frontend development</h3>
+          <h3>C# with Xamarin</h3>
         </div>
 
         <div class="person">
@@ -62,6 +65,38 @@
           <h3>Software engineering</h3>
         </div>
 
+        <div class="person">
+          <img class="propic" src="../res/people/laudan-nikoobakht.jpg">
+          <h2>Laudan Nikoobakht</h2>
+          <h3>Frontend development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/placeholder.png">
+          <h2>Daniel Song</h2>
+          <h3>Frontend development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/placeholder.png">
+          <h2>Elizabeth Beers</h2>
+          <h3>Software engineering</h3>
+        </div>
+      </div>
+
+      <h1 id="past">Past members</h1>
+      <div class="people override-small">
+        <div class="person">
+          <img class="propic" src="../res/people/placeholder.png">
+          <h2>Kayvan Fouladi</h2>
+          <h3>Frontend development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/eric-robertson.jpg">
+          <h2>Eric Robertson</h2>
+          <h3>C# with Xamarin</h3>
+        </div>
       </div>
     </div>
 

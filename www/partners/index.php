@@ -48,10 +48,10 @@
           <h1>Cybersecurity</h1>
           <img src="../res/partners/haystack.svg" title="Haystack Solutions">
         </div>
-        <div>
+        <!--<div>
           <h1>Fashion</h1>
           <img src="../res/partners/enly-logo.png" title="Enly">
-        </div>
+        </div>-->
       </div>
     </div>
     <?php include("../footer.php");?>

@@ -121,6 +121,10 @@
         <div class="content">
           <h1 id="products" style="color:var(--gray1)">Products</h1>
           <div class="wrapper3 override-small">
+            <!--<div class="product">
+              <img class="product-logo" src="res/products/catalogue.svg">
+              <h2>Coming soon...</h2>
+            </div>-->
             <div class="product">
               <img class="product-logo" src="res/products/ultradocs.svg">
               <h2>Coming soon...</h2>
@@ -129,6 +133,18 @@
               <img class="product-logo" src="res/products/thoth-icon.svg">
               <h2>Coming soon...</h2>
             </div>
+            <!--<div class="product">
+              <img class="product-logo" src="res/products/seoda.svg">
+              <h2>SEOda</h2>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/quetzal.svg">
+              <h2>Quetzal</h2>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/featherwheel.svg">
+              <h2>FeatherWheel</h2>
+            </div>-->
           </div>
         </div>
       </div>
@@ -138,10 +154,10 @@
         <div class="content">
           <h1 id="partners" style="color:var(--blue)">Partners</h1>
           <div class="partners-wrapper">
-            <img class="partner" src="res/partners/nurostream.png" title="NuroSTREAM">
             <img class="partner" src="res/partners/tavolo.jpg" title="Tavolo Solutions, LLC">
             <img class="partner" src="res/partners/mehta.png" title="Mehta India">
             <img class="partner" src="res/partners/ramirez.svg" title="Victor Ramirez Law, LLC">
+            <img class="partner" src="res/partners/tranzed.png" title="Tranzed Academy">
             <p>Unfortunately it's impossible to list all of our amazing partners on the front page. That's why we built this <a href="partners">partners page</a> to include everyone!</p>
           </div>
         </div>
@@ -182,25 +198,31 @@
             </p>
             <div class="icons-wrapper">
               <div class="icons-col">
-                <a href="https://twitter.com/alugocp/">
-                  <img src="res/icons/twitter.svg"><br>
-                  <span>@alugocp</span>
+                <a href="https://twitter.com/lugocorpllc/">
+                  <img title="Twitter" src="res/icons/twitter.svg"><br>
+                  <span>@lugocorpllc</span>
                 </a><br>
-                <a href="mailto:alugocp@gmail.com">
-                  <img src="res/icons/mail.svg"><br>
-                  <span>alugocp@gmail.com</span>
-                </a>
               </div>
               <div class="icons-col">
-                <a href="https://www.instagram.com/alugocp1/">
-                  <img src="res/icons/instagram.svg"><br>
+                <a href="https://linkedin.com/company/lugocorp">
+                  <img title="LinkedIn" src="res/icons/linkedin.svg"><br>
+                  <span>LugoCorp</span>
+                </a>
+                <!--<a href="https://www.instagram.com/alugocp1/">
+                  <img title="Instagram" src="res/icons/instagram.svg"><br>
                   <span>@alugocp1</span>
+                </a>-->
+              </div>
+              <div class="icons-col">
+                <a href="https://instagram.com/lugocorpllc">
+                  <img title="Instagram" src="res/icons/instagram.svg"><br>
+                  <span>@lugocorpllc</span>
                 </a>
               </div>
               <div class="icons-col">
-                <a href="https://youtube.com/alexlugo">
-                  <img src="res/icons/youtube.svg"><br>
-                  <span>Alex Lugo</span>
+                <a href="mailto:alugocp@gmail.com">
+                  <img title="Email" src="res/icons/mail.svg"><br>
+                  <span>alugocp@gmail.com</span>
                 </a>
               </div>
             </div>
