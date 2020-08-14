@@ -14,16 +14,20 @@
   <body class="narrow">
     <?php $prefix="../";
       $nav=array(
-        "Members"=>"#members",
+        "Current"=>"#current",
         "Past"=>"#past"
       );
       include("../navbar.php");?>
     <div class="narrow-content">
-      <h1 id="members">Members</h1>
+      <h1 id="current">Current</h1>
+      <p>
+        These are the people who currently work on various teams at LugoCorp.
+      </p>
       <div class="people override-small">
         <div class="person">
           <img class="propic" src="../res/people/alex-lugo.jpg">
           <h2>Alex Lugo</h2>
+          <h3>Founder</h3>
           <h3>CEO</h3>
         </div>
 
@@ -31,13 +35,14 @@
           <img class="propic" src="../res/people/samrat-somanna.jpg">
           <h2>Samrat Somanna</h2>
           <h3>Web scraping</h3>
-          <h3>Software Engineering</h3>
+          <h3>Python and C++</h3>
         </div>
 
         <div class="person">
           <img class="propic" src="../res/people/damien-lutrin.png">
           <h2>Damien Lutrin</h2>
           <h3>React Native</h3>
+          <h3>Lua and C++</h3>
         </div>
 
         <div class="person">
@@ -50,13 +55,13 @@
         <div class="person">
           <img class="propic" src="../res/people/naomi-stewart.jpg">
           <h2>Naomi Stewart</h2>
-          <h3>Software engineering</h3>
+          <h3>JS development</h3>
         </div>
 
         <div class="person">
           <img class="propic" src="../res/people/placeholder.png">
           <h2>Saman Jabari</h2>
-          <h3>Software engineering</h3>
+          <h3>JS development</h3>
         </div>
 
         <div class="person">
@@ -72,19 +77,23 @@
         </div>
 
         <div class="person">
-          <img class="propic" src="../res/people/placeholder.png">
-          <h2>Daniel Song</h2>
+          <img class="propic" src="../res/people/niharika-sahay.jpg">
+          <h2>Niharika Sahay</h2>
           <h3>Frontend development</h3>
+          <h3>Scripting</h3>
         </div>
 
         <div class="person">
-          <img class="propic" src="../res/people/placeholder.png">
-          <h2>Elizabeth Beers</h2>
-          <h3>Software engineering</h3>
+          <img class="propic" src="../res/people/rukaiya-anwar.png">
+          <h2>Rukaiya Anwar</h2>
+          <h3>Frontend development</h3>
         </div>
       </div>
 
-      <h1 id="past">Past members</h1>
+      <h1 id="past">Past</h1>
+      <p>
+        These are the people who have worked on our products in the past and are currently working elsewhere.
+      </p>
       <div class="people override-small">
         <div class="person">
           <img class="propic" src="../res/people/placeholder.png">

@@ -7,7 +7,7 @@
 
 /* Welcome */
 .welcome-wrapper{
-  background-image:url("../res/bg.jpg");
+  background-image:url("../res/bg1.jpg");
   background-repeat:no-repeat;
   background-position:center;
   background-size:100%;
@@ -18,7 +18,7 @@
 }
 .welcome{
   position:relative;
-  box-shadow:0 0 12px black;
+  box-shadow:0 0 6px black;
   background-color:var(--gray1);
   transform:translateX(-50%);
   border-radius:35px;
@@ -39,7 +39,7 @@
 
 /* Services */
 .service{
-  box-shadow:0 0 5px #333;
+  box-shadow:0 0 2px #333;
   border-radius:35px;
   margin:25px;
 }
@@ -64,16 +64,14 @@
   padding:15px 25px 25px 25px;
 }
 
-/* About */
-.about{
-  box-shadow:0 0 12px #333;
+/* Partners */
+.partners{
   background-color:var(--gray1);
+  box-shadow:0 0 2px #333;
   border-radius:35px;
   margin:15px 0;
   padding:20px;
 }
-
-/* Partners */
 .partner{
   width:calc(25% - 75px);
   margin:25px;
@@ -82,7 +80,7 @@
 /* Products */
 .product{
   background-color:var(--gray1);
-  box-shadow:0 0 12px #333;
+  box-shadow:0 0 2px #333;
   border-radius:35px;
   text-align:center;
   padding:25px;
@@ -98,27 +96,14 @@
 }
 
 /* Contact */
-.contact{
-  box-shadow:0 0 12px #333;
-  background-color:var(--gray1);
-  border-radius:35px;
-  margin:15px 0;
-  padding:20px;
-}
 .contact .icons-wrapper{
   grid-template-columns:33% 33% 33%;
   text-align:center;
   font-weight:bold;
   display:grid;
 }
-/*.contact .icons-col:first-of-type{
-  border-right:solid 2px var(--gray3);
-}*/
-.contact .icons-col:not(:nth-of-type(3n+1)){
-  border-left:solid 2px var(--gray3);
-}
 .contact .icons-wrapper img{
-  margin-top:35px;
+  margin-top:75px;
   width:60px;
 }
 

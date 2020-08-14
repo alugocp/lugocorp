@@ -17,8 +17,8 @@
     <?php
       $prefix="";
       $nav=array(
-        "Services"=>"#services","Products"=>"#products",
-        "Partners"=>"#partners","About"=>"#about",
+        "About"=>"#about","Products"=>"#products",
+        "Services"=>"#services","Partners"=>"#partners",
         "Contact"=>"#contact"
       );
       include("navbar.php");
@@ -36,6 +36,78 @@
     </div>
 
     <div>
+      <!-- About -->
+      <div class="section" style="background-color:var(--gray1)">
+        <div class="content">
+          <h1 id="about" style="color:var(--blue)">About</h1>
+          <p>
+            We're a small software company based in College Park, Maryland.
+            We provide web and mobile development for clients while we develop software products of our own.
+            If you need any work done just contact us using the information found at the bottom of this page.
+            We're always looking forward to working on new problems for new clients!
+          </p>
+          <p>
+            At LugoCorp every employee is either a technologist, an artist or both.
+            We believe we have the power and obligation to change the world for the better through combining our collective talents.
+            Whether it's migrating out-of-date industries to the digital world or developing the next generation of creative tools, people who work at LugoCorp are always making an impact.
+          </p>
+          <p>
+            Here at LugoCorp we train local and international programmers in various languages and frameworks to boost their confidence and coding skills.
+            We've created a team that can handle any project or problem thrown their way - whether it's web and app development or collecting and processing large data sets.
+            You can view our various team members on the <a href="team">team page</a>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div class="section" style="background-color:var(--blue)">
+        <div class="content">
+          <h1 id="products" style="color:var(--gray1)">Products</h1>
+          <div class="wrapper3 override-small">
+            <div class="product">
+              <img class="product-logo" src="res/products/ultradocs.svg">
+              <h2>Coming soon...</h2>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/exposure.svg">
+              <h2>Exposure Notes</h2>
+              <p>
+                We created a simple app to help you remember who's been going out to bars and such.
+                Stay safe out there, the pandemic is far from over.
+                This beta is currently only available for Android.
+              </p>
+              <a href="https://play.google.com/store/apps/details?id=net.lugocorp.exposurenotes">Get the Beta</a>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/thoth-icon.svg">
+              <h2>Thoth</h2>
+              <p>
+                Thoth is our procedural word generator framework.
+                Its simple API allows you to generate novel, human-readable text for days on end!
+              </p>
+              <!--<a href="products/thoth">Find out more</a>-->
+              <b>Coming soon!</b>
+            </div>
+            <!--<div class="product">
+              <img class="product-logo" src="res/products/seoda.svg">
+              <h2>SEOda</h2>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/quetzal.svg">
+              <h2>Quetzal</h2>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/featherwheel.svg">
+              <h2>FeatherWheel</h2>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/swamp.png">
+              <h2>Swamp</h2>
+            </div>-->
+          </div>
+        </div>
+      </div>
+
       <!-- Services -->
       <div class="section" style="gray1">
         <div class="content">
@@ -116,115 +188,59 @@
         </div>
       </div>
 
-      <!-- Products -->
-      <div class="section" style="background-color:var(--blue)">
-        <div class="content">
-          <h1 id="products" style="color:var(--gray1)">Products</h1>
-          <div class="wrapper3 override-small">
-            <!--<div class="product">
-              <img class="product-logo" src="res/products/catalogue.svg">
-              <h2>Coming soon...</h2>
-            </div>-->
-            <div class="product">
-              <img class="product-logo" src="res/products/ultradocs.svg">
-              <h2>Coming soon...</h2>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/thoth-icon.svg">
-              <h2>Coming soon...</h2>
-            </div>
-            <!--<div class="product">
-              <img class="product-logo" src="res/products/seoda.svg">
-              <h2>SEOda</h2>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/quetzal.svg">
-              <h2>Quetzal</h2>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/featherwheel.svg">
-              <h2>FeatherWheel</h2>
-            </div>-->
-          </div>
-        </div>
-      </div>
-
       <!-- Partners -->
-      <div class="section" style="background-color:var(--gray1)">
-        <div class="content">
-          <h1 id="partners" style="color:var(--blue)">Partners</h1>
-          <div class="partners-wrapper">
-            <img class="partner" src="res/partners/tavolo.jpg" title="Tavolo Solutions, LLC">
-            <img class="partner" src="res/partners/mehta.png" title="Mehta India">
-            <img class="partner" src="res/partners/ramirez.svg" title="Victor Ramirez Law, LLC">
-            <img class="partner" src="res/partners/tranzed.png" title="Tranzed Academy">
-            <p>Unfortunately it's impossible to list all of our amazing partners on the front page. That's why we built this <a href="partners">partners page</a> to include everyone!</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- About -->
       <div class="section" style="background-color:var(--blue)">
         <div class="content">
-          <div id="about" class="about">
-            <h1 style="color:var(--blue)">About</h1>
-            <p>
-              At LugoCorp every employee is either a technologist, an artist or both.
-              We believe we have the power and obligation to change the world for the better through combining our collective talents.
-              Whether it's migrating out-of-date industries to the digital world or developing the next generation of creative tools, people who work at LugoCorp are always making an impact.
-            </p>
-            <p>
-              We're a small software company based in College Park, Maryland.
-              We mainly focus on web and mobile development for clients with a few software products.
-              If you need any digital work done just contact us using the information provided below.
-              We're always looking forward to working on new problems with new teams!
-            </p>
-            <p>
-              Here at LugoCorp we train local programmers in various languages and frameworks to boost their confidence and coding skills.
-              We've created a team that can handle any project or problem thrown their way - whether it's web and app development or collecting and processing large data sets.
-              You can view some of our team members on our <a href="team">team page</a>.
-            </p>
+          <div class="partners">
+            <h1 id="partners" style="color:var(--blue)">Partners</h1>
+            <div class="partners-wrapper">
+              <img class="partner" src="res/partners/tavolo.jpg" title="Tavolo Solutions, LLC">
+              <img class="partner" src="res/partners/mehta.png" title="Mehta India">
+              <img class="partner" src="res/partners/ramirez.svg" title="Victor Ramirez Law, LLC">
+              <img class="partner" src="res/partners/tranzed.png" title="Tranzed Academy">
+              <p>Unfortunately it's impossible to list all of our amazing partners on the front page. That's why we built this <a href="partners">partners page</a> to include everyone!</p>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Contact -->
       <div class="section" style="background-color:var(--gray1)">
-        <div class="content">
-          <div id="contact" class="contact">
-            <h1 style="color:var(--blue)">Contact</h1>
-            <p>
-              Feel free to contact us if you have any questions or would like to know more.
-            </p>
-            <div class="icons-wrapper">
-              <div class="icons-col">
-                <a href="https://twitter.com/lugocorpllc/">
-                  <img title="Twitter" src="res/icons/twitter.svg"><br>
-                  <span>@lugocorpllc</span>
-                </a><br>
-              </div>
-              <div class="icons-col">
-                <a href="https://linkedin.com/company/lugocorp">
-                  <img title="LinkedIn" src="res/icons/linkedin.svg"><br>
-                  <span>LugoCorp</span>
-                </a>
-                <!--<a href="https://www.instagram.com/alugocp1/">
-                  <img title="Instagram" src="res/icons/instagram.svg"><br>
-                  <span>@alugocp1</span>
-                </a>-->
-              </div>
-              <div class="icons-col">
-                <a href="https://instagram.com/lugocorpllc">
-                  <img title="Instagram" src="res/icons/instagram.svg"><br>
-                  <span>@lugocorpllc</span>
-                </a>
-              </div>
-              <div class="icons-col">
-                <a href="mailto:alugocp@gmail.com">
-                  <img title="Email" src="res/icons/mail.svg"><br>
-                  <span>alugocp@gmail.com</span>
-                </a>
-              </div>
+        <div class="content contact">
+          <h1 id="contact" style="color:var(--blue)">Contact</h1>
+          <p>
+            Feel free to contact us if you have any questions or would like to know more.
+          </p>
+          <div class="icons-wrapper">
+            <div class="icons-col">
+              <a href="https://github.com/lugocorp">
+                <img title="GitHub" src="res/icons/github.svg"><br>
+                <span>LugoCorp, LLC</span>
+              </a><br>
+            </div>
+            <div class="icons-col">
+              <a href="https://linkedin.com/company/lugocorp">
+                <img title="LinkedIn" src="res/icons/linkedin.svg"><br>
+                <span>LugoCorp</span>
+              </a>
+            </div>
+            <div class="icons-col">
+              <a href="mailto:alugocp@gmail.com">
+                <img title="Email" src="res/icons/mail.svg"><br>
+                <span>alugocp@gmail.com</span>
+              </a>
+            </div>
+            <div class="icons-col">
+              <a href="https://instagram.com/lugocorpllc">
+                <img title="Instagram" src="res/icons/instagram.svg"><br>
+                <span>@lugocorpllc</span>
+              </a>
+            </div>
+            <div class="icons-col">
+              <a href="https://twitter.com/lugocorpllc/">
+                <img title="Twitter" src="res/icons/twitter.svg"><br>
+                <span>@lugocorpllc</span>
+              </a><br>
             </div>
           </div>
         </div>
