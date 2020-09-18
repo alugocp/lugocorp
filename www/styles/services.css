@@ -57,7 +57,7 @@ h1{
 /* Portfolio */
 .past-project{
   background-color:var(--gray1);
-  box-shadow:0 0 12px #333;
+  box-shadow:0 0 2px #333;
   border-radius:35px;
   padding:25px;
   margin:15px;

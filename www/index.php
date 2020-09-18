@@ -48,11 +48,11 @@
           </p>
           <p>
             At LugoCorp every employee is either a technologist, an artist or both.
-            We believe we have the power and obligation to change the world for the better through combining our collective talents.
+            We believe we have the power and responsibility to change the world for the better through combining our collective talents.
             Whether it's migrating out-of-date industries to the digital world or developing the next generation of creative tools, people who work at LugoCorp are always making an impact.
           </p>
           <p>
-            Here at LugoCorp we train local and international programmers in various languages and frameworks to boost their confidence and coding skills.
+            We train local and international programmers in various languages and frameworks to boost their confidence and coding skills.
             We've created a team that can handle any project or problem thrown their way - whether it's web and app development or collecting and processing large data sets.
             You can view our various team members on the <a href="team">team page</a>.
           </p>
@@ -65,8 +65,22 @@
           <h1 id="products" style="color:var(--gray1)">Products</h1>
           <div class="wrapper3 override-small">
             <div class="product">
-              <img class="product-logo" src="res/products/ultradocs.svg">
-              <h2>Coming soon...</h2>
+              <img class="product-logo" src="res/products/cairn.svg">
+              <h2>Cairn</h2>
+                Cairn is a simple automated web build script.
+                Package your PHP projects into static pages with a single command!
+              <p>
+              </p>
+              <a href="products/cairn">Find out more</a>
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/tiempos.svg">
+              <h2>Tiempos</h2>
+              <p>
+                A timezones app for timezone enthusiasts and/or frequent fliers.
+                This beta is currently only available for Android.
+              </p>
+              <a href="https://play.google.com/apps/testing/net.lugocorp.tiempos">Get the Beta</a>
             </div>
             <div class="product">
               <img class="product-logo" src="res/products/exposure.svg">
@@ -76,40 +90,25 @@
                 Stay safe out there, the pandemic is far from over.
                 This beta is currently only available for Android.
               </p>
-              <a href="https://play.google.com/store/apps/details?id=net.lugocorp.exposurenotes">Get the Beta</a>
+              <a href="https://play.google.com/apps/testing/net.lugocorp.exposurenotes">Get the Beta</a>
             </div>
-            <div class="product">
+            <!--<div class="product">
               <img class="product-logo" src="res/products/thoth-icon.svg">
               <h2>Thoth</h2>
               <p>
                 Thoth is our procedural word generator framework.
                 Its simple API allows you to generate novel, human-readable text for days on end!
-              </p>
+              </p>-->
               <!--<a href="products/thoth">Find out more</a>-->
-              <b>Coming soon!</b>
-            </div>
-            <!--<div class="product">
-              <img class="product-logo" src="res/products/seoda.svg">
-              <h2>SEOda</h2>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/quetzal.svg">
-              <h2>Quetzal</h2>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/featherwheel.svg">
-              <h2>FeatherWheel</h2>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/swamp.png">
-              <h2>Swamp</h2>
+              <!--<b>Coming soon!</b>
             </div>-->
           </div>
+          <a class="products-link" href="products">See more</a>
         </div>
       </div>
 
       <!-- Services -->
-      <div class="section" style="gray1">
+      <div class="section">
         <div class="content">
           <h1 id="services" style="color:var(--blue)">Services</h1>
           <p>
@@ -160,7 +159,7 @@
                 <a href="services/data">more</a>
               </div>
             </div>
-            <div class="service">
+            <!--<div class="service">
               <div class="service-top">
                 <h2><img src="res/icons/cloud.svg"> Cloud development</h2>
               </div>
@@ -183,7 +182,7 @@
                   More information coming soon.
                 </span>
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>

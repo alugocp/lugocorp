@@ -45,7 +45,10 @@
           <div class="entry">MySQL</div>
           <div class="entry">PHP</div>
           <div class="entry">Node.js</div>
+          <div class="entry">PostgreSQL</div>
           <div class="entry">React</div>
+          <div class="entry">Ruby Rails</div>
+          <div class="entry">SQLite3</div>
         </div>
       </div>
       <p>
@@ -88,6 +91,22 @@
               We built a brand-new website for Victor Ramirez Law, LLC.
               Victor Ramirez is a local attorney who helps in traffic, injury and immigration cases.
               You can view the site <a href="http://victorramirezlaw.com/">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Edhaus</h2>
+            <span>
+              We created a custom website for a local educator.
+              She's taught at schools around the world from College Park to Nepal.
+              You can check out her site <a href="https://farhananshah.github.io/edhaus">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>MPLEX</h2>
+            <span>
+              We made some updates to a website for a VR gaming startup at the University of Maryland.
+              They're working to make a better VR gaming experience with their tanks combat game Core Disruption.
+              Find out more <a href="http://coredisruption.com/">here</a>.
             </span>
           </div>
         </div>

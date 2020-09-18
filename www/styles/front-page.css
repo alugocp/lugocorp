@@ -94,6 +94,17 @@
   display:block;
   left:50%;
 }
+a.products-link{
+  display:block;
+  text-align:center;
+  font-weight:bold;
+  font-size:30px;
+  margin-top:15px;
+  color:white;
+}
+.products-link:hover{
+  color:white;
+}
 
 /* Contact */
 .contact .icons-wrapper{

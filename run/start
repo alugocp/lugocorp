@@ -1,5 +1,5 @@
 #!/bin/bash
-source config.sh
+SERVER="127.0.0.1:2019"
 gnome-terminal -e "php -S $SERVER -t $(pwd)/www"
 [ $? = 0 ] && echo "Dev server is online"
 

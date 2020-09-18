@@ -82,13 +82,9 @@
           <h3>Frontend development</h3>
           <h3>Scripting</h3>
         </div>
-
-        <div class="person">
-          <img class="propic" src="../res/people/rukaiya-anwar.png">
-          <h2>Rukaiya Anwar</h2>
-          <h3>Frontend development</h3>
-        </div>
       </div>
+
+      <hr class="separator"/>
 
       <h1 id="past">Past</h1>
       <p>
@@ -105,6 +101,12 @@
           <img class="propic" src="../res/people/eric-robertson.jpg">
           <h2>Eric Robertson</h2>
           <h3>C# with Xamarin</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/rukaiya-anwar.png">
+          <h2>Rukaiya Anwar</h2>
+          <h3>Frontend development</h3>
         </div>
       </div>
     </div>

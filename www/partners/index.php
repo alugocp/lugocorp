@@ -35,6 +35,7 @@
           <h1>Education</h1>
           <img src="../res/partners/nurostream.png" title="NuroStream, LLC">
           <img src="../res/partners/tranzed.png" title="Tranzed Academy">
+          <!--<img src="../res/partners/edhaus.png" title="Edhaus">-->
         </div>
         <div>
           <h1>Law</h1>

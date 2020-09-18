@@ -55,10 +55,19 @@
         <h1 id="portfolio">Portfolio</h1>
         <div class="wrapper2">
           <div class="past-project">
-            <h2>Uh-oh</h2>
+            <h2>Exposure Notes</h2>
             <span>
-              Looks like we haven't built many apps yet.
-              We're working on it, just stop by again later!
+              We created an app with React Native to help you remember when neighbors went out to beaches in a pandemic.
+              Simply log when they got back and whether or not they're tested, and you'll know if it's safe to have them over.
+              Find it on the <a href="https://play.google.com/apps/testing/net.lugocorp.exposurenotes">Google Play store</a> and Apple App Store (coming soon).
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Tiempos</h2>
+            <span>
+              We're currently working on an app using Dart's Flutter framework.
+              It's designed to keep track of time in major cities around the world.
+              Try our beta on the <a href="https://play.google.com/apps/testing/net.lugocorp.tiempos">Google play store</a>.
             </span>
           </div>
         </div>
