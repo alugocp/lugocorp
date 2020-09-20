@@ -1,6 +1,9 @@
 #!/bin/bash
 OUTPUT=".build"
 cairn www "$OUTPUT"
+pushd www > /dev/null
+php 404.php > "../$OUTPUT/404.html"
+popd > /dev/null
 
 pushd "$OUTPUT" > /dev/null
 git init
