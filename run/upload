@@ -1,6 +1,6 @@
 #!/bin/bash
 OUTPUT=".build"
-cairn . "$OUTPUT"
+cairn www "$OUTPUT"
 
 pushd "$OUTPUT" > /dev/null
 git init

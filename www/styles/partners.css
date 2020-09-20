@@ -3,9 +3,9 @@
   display:grid;
 }
 .partners-categories div{
-  box-shadow:0 0 5px black;
+  border-radius:var(--border-radius);
+  box-shadow:var(--box-shadow);
   padding-bottom:15px;
-  border-radius:15px;
   text-align:center;
   overflow:hidden;
   margin:15px;

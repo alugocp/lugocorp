@@ -1,6 +1,6 @@
 <div class="lugo-navbar">
   <a href="/">
-    <img class="icon" src="<?php echo($prefix);?>res/lugocorp-hex.svg" title="Home">
+    <img class="icon" src="<?php echo($prefix);?>/res/lugocorp-hex.svg" title="Home">
   </a>
   <div>
     <?php foreach($nav as $k => $v): ?>

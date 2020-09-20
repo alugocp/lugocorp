@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php $prefix="..";?>
     <meta charset="utf-8">
     <title>LugoCorp - Partners</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../res/favicon.ico">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/alternate.css">
-    <link rel="stylesheet" href="../styles/partners.css">
-    <script src="../scripts/jquery.min.js"></script>
-    <script src="../scripts/lugo.js"></script>
+    <?php include($prefix."/head.php");?>
+    <style><?php include($prefix."/styles/alternate.css");?></style>
+    <style><?php include($prefix."/styles/partners.css");?></style>
   </head>
   <body class="narrow">
-    <?php $prefix="../";
+    <?php
       $nav=array(
         "Intro"=>"#intro","Partners"=>"#partners"
       );
-      include("../navbar.php");?>
+      include($prefix."/navbar.php");?>
     <div class="narrow-content">
       <h1 id="intro">Introduction</h1>
       <p>
@@ -29,32 +26,32 @@
       <div class="partners-categories override-small">
         <div>
           <h1>Design</h1>
-          <img src="../res/partners/tavolo.jpg" title="Tavolo Solutions">
+          <img src="<?php echo($prefix);?>/res/partners/tavolo.jpg" title="Tavolo Solutions">
         </div>
         <div>
           <h1>Education</h1>
-          <img src="../res/partners/nurostream.png" title="NuroStream, LLC">
-          <img src="../res/partners/tranzed.png" title="Tranzed Academy">
-          <!--<img src="../res/partners/edhaus.png" title="Edhaus">-->
+          <img src="<?php echo($prefix);?>/res/partners/nurostream.png" title="NuroStream, LLC">
+          <img src="<?php echo($prefix);?>/res/partners/tranzed.png" title="Tranzed Academy">
+          <!--<img src="<?php echo($prefix);?>/res/partners/edhaus.png" title="Edhaus">-->
         </div>
         <div>
           <h1>Law</h1>
-          <img src="../res/partners/ramirez.svg" title="Victor Ramirez Law, LLC">
+          <img src="<?php echo($prefix);?>/res/partners/ramirez.svg" title="Victor Ramirez Law, LLC">
         </div>
         <div>
           <h1>Manufacturing</h1>
-          <img src="../res/partners/mehta.png" title="Mehta India">
+          <img src="<?php echo($prefix);?>/res/partners/mehta.png" title="Mehta India">
         </div>
         <div>
           <h1>Cybersecurity</h1>
-          <img src="../res/partners/haystack.svg" title="Haystack Solutions">
+          <img src="<?php echo($prefix);?>/res/partners/haystack.svg" title="Haystack Solutions">
         </div>
         <!--<div>
           <h1>Fashion</h1>
-          <img src="../res/partners/enly-logo.png" title="Enly">
+          <img src="<?php echo($prefix);?>/res/partners/enly-logo.png" title="Enly">
         </div>-->
       </div>
     </div>
-    <?php include("../footer.php");?>
+    <?php include($prefix."/footer.php");?>
   </body>
 </html>

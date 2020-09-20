@@ -13,9 +13,9 @@ h1{
   width:50px;
 }
 .service-poster{
+  border-radius:var(--border-radius);
   background-color:var(--blue);
   shape-outside:margin-box;
-  border-radius:35px;
   margin:15px 25px;
   margin-top:0;
   float:right;
@@ -24,8 +24,8 @@ h1{
 
 /* Skills */
 .skills{
+  border-radius:var(--border-radius);
   background-color:var(--blue);
-  border-radius:35px;
   padding:25px;
   padding-top:5px;
 }
@@ -34,9 +34,9 @@ h1{
   display:grid;
 }
 .skills .entry{
+  border-radius:var(--border-radius);
   background-color:var(--gray1);
   color:var(--gray4);
-  border-radius:35px;
   text-align:center;
   font-weight:bold;
   padding:15px;
@@ -56,9 +56,9 @@ h1{
 
 /* Portfolio */
 .past-project{
+  border-radius:var(--border-radius);
   background-color:var(--gray1);
-  box-shadow:0 0 2px #333;
-  border-radius:35px;
+  box-shadow:var(--box-shadow);
   padding:25px;
   margin:15px;
 }

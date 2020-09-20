@@ -18,10 +18,10 @@
 }
 .welcome{
   position:relative;
-  box-shadow:0 0 6px black;
+  box-shadow:var(--box-shadow);
   background-color:var(--gray1);
+  border-radius:var(--border-radius);
   transform:translateX(-50%);
-  border-radius:35px;
   padding:25px;
   width:50%;
   left:50%;
@@ -39,12 +39,12 @@
 
 /* Services */
 .service{
-  box-shadow:0 0 2px #333;
-  border-radius:35px;
+  border-radius:var(--border-radius);
+  box-shadow:var(--box-shadow);
   margin:25px;
 }
 .service .service-top{
-  border-radius:35px 35px 0px 0px;
+  border-radius:var(--border-radius) var(--border-radius) 0px 0px;
   background-color:var(--blue);
   padding:15px 15px 5px 15px;
   color:var(--gray1);
@@ -59,16 +59,16 @@
   transform:scale(1.5);
 }
 .service .service-bot{
-  border-radius:0px 0px 35px 35px;
+  border-radius:0px 0px var(--border-radius) var(--border-radius);
   background-color:var(--gray1);
   padding:15px 25px 25px 25px;
 }
 
 /* Partners */
 .partners{
+  border-radius:var(--border-radius);
   background-color:var(--gray1);
-  box-shadow:0 0 2px #333;
-  border-radius:35px;
+  box-shadow:var(--box-shadow);
   margin:15px 0;
   padding:20px;
 }
@@ -79,9 +79,9 @@
 
 /* Products */
 .product{
+  border-radius:var(--border-radius);
   background-color:var(--gray1);
-  box-shadow:0 0 2px #333;
-  border-radius:35px;
+  box-shadow:var(--box-shadow);
   text-align:center;
   padding:25px;
   margin:25px;

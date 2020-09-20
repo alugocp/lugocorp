@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <?php $prefix="../..";?>
     <title>LugoCorp - Mobile development</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../res/favicon.ico">
-    <link rel="stylesheet" href="../../styles/main.css">
-    <link rel="stylesheet" href="../../styles/alternate.css">
-    <link rel="stylesheet" href="../../styles/services.css">
-    <script src="../../scripts/jquery.min.js"></script>
-    <script src="../../scripts/lugo.js"></script>
+    <?php include($prefix."/head.php");?>
+    <style><?php include($prefix."/styles/alternate.css");?></style>
+    <style><?php include($prefix."/styles/services.css");?></style>
   </head>
   <body class="narrow">
-    <?php $prefix="../../";
+    <?php
       $nav=array(
         "Tech"=>"#tech","Portfolio"=>"#portfolio"
       );
-      include("../../navbar.php");?>
+      include($prefix."/navbar.php");?>
     <div class="narrow-content">
       <div class="intro-wrapper">
         <h1>
-          <img class="service-icon" src="../../res/icons/phone.svg">
+          <img class="service-icon" src="<?php echo($prefix);?>/res/icons/phone.svg">
            Mobile development
         </h1>
-        <img class="service-poster" src="../../res/icons/phone.svg">
+        <img class="service-poster" src="<?php echo($prefix);?>/res/icons/phone.svg">
         <p>
           Yeah websites are cool, but so are mobile apps.
           We mostly specialize in Android development but are expanding into cross-platform mobile development.
@@ -73,6 +69,6 @@
         </div>
       </div>
     </div>
-    <?php include("../../footer.php");?>
+    <?php include($prefix."/footer.php");?>
   </body>
 </html>

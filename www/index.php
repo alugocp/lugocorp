@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <?php $prefix=".";?>
     <title>LugoCorp</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="Need some software consultants in the DC area? LugoCorp has got you covered! Check out our products today">
     <meta name="keywords" content="lugocorp,software,software consultancy,tech consultants,lugo,alex lugo,software development,lugo corp,software consultant,software consulting,web development,mobile development,web,mobile,web design,mobile design,consulting,developers,software,tech">
     <meta name="robots" content="index,follow">
-    <link rel="icon" href="res/favicon.ico">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/front-page.css">
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/lugo.js"></script>
+    <style><?php include("styles/front-page.css");?></style>
+    <?php include("head.php");?>
   </head>
   <body>
     <?php
-      $prefix="";
       $nav=array(
         "About"=>"#about","Products"=>"#products",
         "Services"=>"#services","Partners"=>"#partners",
@@ -73,7 +68,7 @@
               </p>
               <a href="products/cairn">Find out more</a>
             </div>
-            <div class="product">
+            <!--<div class="product">
               <img class="product-logo" src="res/products/tiempos.svg">
               <h2>Tiempos</h2>
               <p>
@@ -91,17 +86,22 @@
                 This beta is currently only available for Android.
               </p>
               <a href="https://play.google.com/apps/testing/net.lugocorp.exposurenotes">Get the Beta</a>
-            </div>
-            <!--<div class="product">
+            </div>-->
+            <div class="product">
               <img class="product-logo" src="res/products/thoth-icon.svg">
               <h2>Thoth</h2>
               <p>
                 Thoth is our procedural word generator framework.
                 Its simple API allows you to generate novel, human-readable text for days on end!
-              </p>-->
+              </p>
+              <p>Launch will be announced soon</p>
               <!--<a href="products/thoth">Find out more</a>-->
-              <!--<b>Coming soon!</b>
-            </div>-->
+              <!--<b>Coming soon!</b>-->
+            </div>
+            <div class="product">
+              <img class="product-logo" src="res/products/argzilla.svg">
+              <h2>Coming soon...</h2>
+            </div>
           </div>
           <a class="products-link" href="products">See more</a>
         </div>

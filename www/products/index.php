@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <?php $prefix="..";?>
     <title>LugoCorp - Products</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../res/favicon.ico">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/alternate.css">
-    <link rel="stylesheet" href="../styles/products.css">
-    <script src="../scripts/jquery.min.js"></script>
-    <script src="../scripts/lugo.js"></script>
+    <?php include($prefix."/head.php");?>
+    <style><?php include($prefix."/styles/alternate.css");?></style>
+    <style><?php include($prefix."/styles/products.css");?></style>
   </head>
   <body class="narrow">
-    <?php $prefix="../";
+    <?php
       $nav=array(
         "Topics"=>"#topics",
         "Products"=>"#products"
       );
-      include("../navbar.php");?>
+      include($prefix."/navbar.php");?>
     <div class="narrow-content">
       <h1 id="topics">Topics</h1>
       <p>
@@ -41,8 +37,9 @@
       <h1 id="products">Products</h1>
       <h1 class="topic" id="topic-health">Health</h1>
       <!-- Ergonomicon -->
-      <div class="product">
-        <div><img src="../res/products/exposure.svg"/></div>
+      <h2>Coming soon...</h2>
+      <!--<div class="product">
+        <div><img src="<?php echo($prefix);?>/res/products/exposure.svg"/></div>
         <div>
           <h2>Exposure Notes</h2>
           <span>
@@ -53,12 +50,12 @@
             This product stores all the data you enter locally on your device, and it does not store any identifying information apart from someone's name.
           </span>
         </div>
-      </div>
+      </div>-->
 
       <h1 class="topic" id="topic-linguistics">Linguistics</h1>
       <!-- Pegasus -->
       <div class="product">
-        <div><img src="../res/products/thoth-icon.svg"/></div>
+        <div><img src="<?php echo($prefix);?>/res/products/thoth-icon.svg"/></div>
         <div>
           <h2>Thoth</h2>
           <span>
@@ -70,7 +67,7 @@
       <h1 class="topic" id="topic-development">Development</h1>
       <!-- FeatherWheel, Overflow, Slime, Argzilla, Swamp, Quetzal -->
       <div class="product">
-        <div><img src="../res/products/cairn.svg"/></div>
+        <div><img src="<?php echo($prefix);?>/res/products/cairn.svg"/></div>
         <div>
           <h2>Cairn</h2>
           <span>
@@ -82,8 +79,8 @@
       </div>
 
       <h1 class="topic" id="topic-utilities">Utilities</h1>
-      <div class="product">
-        <div><img src="../res/products/tiempos.svg"/></div>
+      <!--<div class="product">
+        <div><img src="<?php echo($prefix);?>/res/products/tiempos.svg"/></div>
         <div>
           <h2>Tiempos</h2>
           <span>
@@ -91,7 +88,8 @@
             Keep track of local time in your favorite cities around the globe with Tiempos!
           </span>
         </div>
-      </div>
+      </div>-->
+      <h2>Coming soon...</h2>
 
       <h1 class="topic" id="topic-marketing">Marketing</h1>
       <!-- SEOda, Divine -->
@@ -110,6 +108,6 @@
       <h2>Coming soon...</h2>
 
     </div>
-    <?php include("../footer.php");?>
+    <?php include($prefix."/footer.php");?>
   </body>
 </html>

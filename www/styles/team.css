@@ -6,8 +6,8 @@
 }
 
 .person{
-  box-shadow:0 0 5px var(--gray3);
-  border-radius:25px;
+  box-shadow:var(--box-shadow);
+  border-radius:var(--border-radius);
   padding-top:15px;
   margin:0px 15px;
   margin-bottom:50px;
@@ -16,6 +16,7 @@
   color:var(--blue);
 }
 .person h3{
+  font-weight:normal;
   color:var(--gray3);
 }
 

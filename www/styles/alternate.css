@@ -2,9 +2,9 @@
   background-color:var(--gray2);
 }
 .narrow-content{
-  box-shadow:0 0 5px var(--gray3);
   min-height:calc(100vh - 124px);
   background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
   width:calc(80% - 70px);
   position:relative;
   padding:15px 35px;
