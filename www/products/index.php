@@ -25,11 +25,7 @@
         <a href="#topic-health">Health</a>
         <a href="#topic-linguistics">Linguistics</a>
         <a href="#topic-development">Development</a>
-        <a href="#topic-utilities">Utilities</a>
-        <a href="#topic-marketing">Marketing</a>
-        <a href="#topic-activism">Activism</a>
-        <a href="#topic-datascience">Data Science</a>
-        <a href="#topic-management">Management</a>
+        <a href="#topic-gaming">Gaming</a>
       </div>
 
       <hr class="separator"/>
@@ -38,19 +34,6 @@
       <h1 class="topic" id="topic-health">Health</h1>
       <!-- Ergonomicon -->
       <h2>Coming soon...</h2>
-      <!--<div class="product">
-        <div><img src="<?php echo($prefix);?>/res/products/exposure.svg"/></div>
-        <div>
-          <h2>Exposure Notes</h2>
-          <span>
-            Viral pandemics are fairly scary.
-            In lots of instances you don't know who might be infected.
-            But in lots of other instances you can tell when someone's been going out to high-risk places.
-            This app allows you to keep track of those around you who have been tested or gone out, so that you can count to two weeks and see if they become symptomatic.
-            This product stores all the data you enter locally on your device, and it does not store any identifying information apart from someone's name.
-          </span>
-        </div>
-      </div>-->
 
       <h1 class="topic" id="topic-linguistics">Linguistics</h1>
       <!-- Pegasus -->
@@ -59,13 +42,16 @@
         <div>
           <h2>Thoth</h2>
           <span>
-            Coming soon...
+            Thoth is a C++ library for language and word generation.
+            You can use it to produce endless human-readable strings in a procedural language.
+            Integrate it with your own projects as a C++ library or use it as a standalone command line tool!
+            <a href="products/thoth">See more</a>
           </span>
         </div>
       </div>
 
       <h1 class="topic" id="topic-development">Development</h1>
-      <!-- FeatherWheel, Overflow, Slime, Argzilla, Swamp, Quetzal -->
+      <!-- FeatherWheel, Overflow, Slime, Quetzal, Arcana -->
       <div class="product">
         <div><img src="<?php echo($prefix);?>/res/products/cairn.svg"/></div>
         <div>
@@ -74,38 +60,36 @@
             Cairn allows you to package your PHP projects into a static multi-page website.
             It makes use of Bash automation to handle all the index.php files in your project.
             We developed it to use across our internal and client sites that use PHP for templating.
+            <a href="products/cairn">See more</a>
+          </span>
+        </div>
+      </div>
+      <div class="product">
+        <div><img src="<?php echo($prefix);?>/res/products/argzilla.svg"/></div>
+        <div>
+          <h2>Argzilla</h2>
+          <span>
+            Argzilla is an easy to use partial evaluator for creating argparse functionality.
+            It allows you to easily define command line arguments in a JSON file and then creates code to parse those inputs.
+            Argzilla supports various languages including C++, Java, Ruby, Python, Lua and Bash.
+            <a href="products/argzilla">See more</a>
           </span>
         </div>
       </div>
 
-      <h1 class="topic" id="topic-utilities">Utilities</h1>
-      <!--<div class="product">
-        <div><img src="<?php echo($prefix);?>/res/products/tiempos.svg"/></div>
+      <h1 class="topic" id="topic-gaming">Gaming</h1>
+      <div class="product">
+        <div><img src="<?php echo($prefix);?>/res/products/supercharge.png"/></div>
         <div>
-          <h2>Tiempos</h2>
+          <h2>Supercharge</h2>
           <span>
-            Tiempos is an app to help you coordinate between timezones.
-            Keep track of local time in your favorite cities around the globe with Tiempos!
+            Supercharge is a Minecraft mod that sppeds up the core experience.
+            It boosts enemy spawn and drop rates, and enemy kills drop 4x as much experience.
+            It also supercharges ore placement in world generation, so you won't have to spend long on finding resources underground.
+            <a href="https://github.com/alugocp/supercharge">View on GitHub</a>
           </span>
         </div>
-      </div>-->
-      <h2>Coming soon...</h2>
-
-      <h1 class="topic" id="topic-marketing">Marketing</h1>
-      <!-- SEOda, Divine -->
-      <h2>Coming soon...</h2>
-
-      <h1 class="topic" id="topic-activism">Activism</h1>
-      <!-- Email app thing -->
-      <h2>Coming soon...</h2>
-
-      <h1 class="topic" id="topic-datascience">Data Science</h1>
-      <!-- DataLemon -->
-      <h2>Coming soon...</h2>
-
-      <h1 class="topic" id="topic-management">Management</h1>
-      <!-- Bamboo -->
-      <h2>Coming soon...</h2>
+      </div>
 
     </div>
     <?php include($prefix."/footer.php");?>

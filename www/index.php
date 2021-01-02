@@ -4,7 +4,7 @@
     <?php $prefix=".";?>
     <title>LugoCorp</title>
     <meta name="description" content="Need some software consultants in the DC area? LugoCorp has got you covered! Check out our products today">
-    <meta name="keywords" content="lugocorp,software,software consultancy,tech consultants,lugo,alex lugo,software development,lugo corp,software consultant,software consulting,web development,mobile development,web,mobile,web design,mobile design,consulting,developers,software,tech">
+    <meta name="keywords" content="lugocorp,software,lugo,alex lugo,software engineering,lugo corp,web development,mobile development,web design,consulting,software">
     <meta name="robots" content="index,follow">
     <style><?php include("styles/front-page.css");?></style>
     <?php include("head.php");?>
@@ -60,6 +60,15 @@
           <h1 id="products" style="color:var(--gray1)">Products</h1>
           <div class="wrapper3 override-small">
             <div class="product">
+              <img class="product-logo" src="res/products/supercharge.png">
+              <h2>Supercharge</h2>
+                Supercharge is a Minecraft mod that speeds up the core experience.
+                It boosts enemy spawn and drop rates, as well as ore generation.
+              <p>
+              </p>
+              <a href="https://github.com/alugocp/supercharge">View on GitHub</a>
+            </div>
+            <div class="product">
               <img class="product-logo" src="res/products/cairn.svg">
               <h2>Cairn</h2>
                 Cairn is a simple automated web build script.
@@ -68,25 +77,6 @@
               </p>
               <a href="products/cairn">Find out more</a>
             </div>
-            <!--<div class="product">
-              <img class="product-logo" src="res/products/tiempos.svg">
-              <h2>Tiempos</h2>
-              <p>
-                A timezones app for timezone enthusiasts and/or frequent fliers.
-                This beta is currently only available for Android.
-              </p>
-              <a href="https://play.google.com/apps/testing/net.lugocorp.tiempos">Get the Beta</a>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/exposure.svg">
-              <h2>Exposure Notes</h2>
-              <p>
-                We created a simple app to help you remember who's been going out to bars and such.
-                Stay safe out there, the pandemic is far from over.
-                This beta is currently only available for Android.
-              </p>
-              <a href="https://play.google.com/apps/testing/net.lugocorp.exposurenotes">Get the Beta</a>
-            </div>-->
             <div class="product">
               <img class="product-logo" src="res/products/thoth-icon.svg">
               <h2>Thoth</h2>
@@ -94,13 +84,7 @@
                 Thoth is our procedural word generator framework.
                 Its simple API allows you to generate novel, human-readable text for days on end!
               </p>
-              <p>Launch will be announced soon</p>
-              <!--<a href="products/thoth">Find out more</a>-->
-              <!--<b>Coming soon!</b>-->
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/argzilla.svg">
-              <h2>Coming soon...</h2>
+              <a href="products/thoth">Find out more</a>
             </div>
           </div>
           <a class="products-link" href="products">See more</a>

@@ -95,15 +95,18 @@
   left:50%;
 }
 a.products-link{
-  display:block;
+  color:var(--white);
   text-align:center;
   font-weight:bold;
-  font-size:30px;
   margin-top:15px;
-  color:white;
+  font-size:30px;
+  display:block;
 }
-.products-link:hover{
-  color:white;
+a.products-link:visited{
+  color:var(--white);
+}
+a.products-link:hover{
+  color:var(--white);
 }
 
 /* Contact */
