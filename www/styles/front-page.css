@@ -7,7 +7,7 @@
 
 /* Welcome */
 .welcome-wrapper{
-  background-image:url("../res/bg1.jpg");
+  background-image:url("../res/bg.jpg");
   background-repeat:no-repeat;
   background-position:center;
   background-size:100%;
@@ -37,31 +37,16 @@
 }
 
 
-/* Services */
-.service{
-  border-radius:var(--border-radius);
-  box-shadow:var(--box-shadow);
-  margin:25px;
+/* Media */
+.timeline{
+  grid-template-columns:48% 48%;
+  grid-column-gap:4%;
+  display:grid;
 }
-.service .service-top{
-  border-radius:var(--border-radius) var(--border-radius) 0px 0px;
-  background-color:var(--blue);
-  padding:15px 15px 5px 15px;
-  color:var(--gray1);
-}
-.service .service-top h2{
-  word-wrap:break-word;
-  line-height:35px;
-  font-size:30px;
-  margin:0;
-}
-.service .service-top img{
-  transform:scale(1.5);
-}
-.service .service-bot{
-  border-radius:0px 0px var(--border-radius) var(--border-radius);
-  background-color:var(--gray1);
-  padding:15px 25px 25px 25px;
+@media only screen and (max-width:1000px){
+  .timeline{
+    grid-template-columns:100%;
+  }
 }
 
 /* Partners */

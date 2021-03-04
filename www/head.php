@@ -1,8 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="icon" href="<?php echo($prefix)?>/res/favicon.ico">
-<script><?php include($prefix."/scripts/jquery.min.js");?></script>
-<script><?php include($prefix."/scripts/lugo.js");?></script>
 <style><?php include($prefix."/styles/main.css");?></style>
 <style>
 @font-face{

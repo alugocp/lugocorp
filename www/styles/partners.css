@@ -3,21 +3,21 @@
   display:grid;
 }
 .partners-categories div{
-  border-radius:var(--border-radius);
-  box-shadow:var(--box-shadow);
   padding-bottom:15px;
   text-align:center;
   overflow:hidden;
   margin:15px;
 }
 .partners-categories h1{
+  border-radius:var(--border-radius);
   background-color:var(--blue);
   margin-top:0;
   color:white;
 }
 .partners-categories img{
-  width:80%;/*calc(100% - 30px);*/
-  margin:25px 0;
+  max-height:200px;
+  width:70%;
+  margin:40px 0;
 }
 
 @media only screen and (max-width:1500px){

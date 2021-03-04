@@ -52,6 +52,15 @@
 
       <h1 class="topic" id="topic-development">Development</h1>
       <!-- FeatherWheel, Overflow, Slime, Quetzal, Arcana -->
+      <!--<div class="product">
+        <div><img src="<?php echo($prefix);?>/res/products/moonshot.svg"/></div>
+        <div>
+          <h2>Moonshot</h2>
+          <span>
+            Coming soon
+          </span>
+        </div>
+      </div>-->
       <div class="product">
         <div><img src="<?php echo($prefix);?>/res/products/cairn.svg"/></div>
         <div>
@@ -79,13 +88,26 @@
 
       <h1 class="topic" id="topic-gaming">Gaming</h1>
       <div class="product">
+        <div><img src="<?php echo($prefix);?>/res/products/budgie.svg"/></div>
+        <div>
+          <h2>Budgie</h2>
+          <span>
+            Budgie is a lightweight game development framework for HTML5 browers.
+            Use our command line tool to start writing a JavaScript game in no time!
+            Budgie handles basic game functions such as event handling, asset loading and a sprite system.
+            The rest is up to you!
+            <!--<a href="https://lugocorp.github.io/budgie/">See more</a>-->
+          </span>
+        </div>
+      </div>
+      <div class="product">
         <div><img src="<?php echo($prefix);?>/res/products/supercharge.png"/></div>
         <div>
           <h2>Supercharge</h2>
           <span>
-            Supercharge is a Minecraft mod that sppeds up the core experience.
+            Supercharge is a Minecraft mod that speeds up the core experience.
             It boosts enemy spawn and drop rates, and enemy kills drop 4x as much experience.
-            It also supercharges ore placement in world generation, so you won't have to spend long on finding resources underground.
+            It also supercharges ore placement in world generation, so you won't have to spend a long time looking for resources underground.
             <a href="https://github.com/alugocp/supercharge">View on GitHub</a>
           </span>
         </div>

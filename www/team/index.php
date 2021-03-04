@@ -21,7 +21,7 @@
       </p>
       <div class="people override-small">
         <div class="person">
-          <img class="propic" src="<?php echo($prefix);?>/res/people/alex-lugo.jpg">
+          <img class="propic" src="<?php echo($prefix);?>/res/people/alex-lugo.jpeg">
           <h2>Alex Lugo</h2>
           <h3>Founder</h3>
           <h3>CEO</h3>
@@ -73,13 +73,6 @@
           <img class="propic" src="<?php echo($prefix);?>/res/people/laudan-nikoobakht.jpg">
           <h2>Laudan Nikoobakht</h2>
           <h3>Frontend development</h3>
-        </div>
-
-        <div class="person">
-          <img class="propic" src="<?php echo($prefix);?>/res/people/niharika-sahay.jpg">
-          <h2>Niharika Sahay</h2>
-          <h3>Frontend development</h3>
-          <h3>Scripting</h3>
         </div>
       </div>
 
