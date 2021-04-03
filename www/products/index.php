@@ -96,7 +96,7 @@
             Use our command line tool to start writing a JavaScript game in no time!
             Budgie handles basic game functions such as event handling, asset loading and a sprite system.
             The rest is up to you!
-            <!--<a href="https://lugocorp.github.io/budgie/">See more</a>-->
+            <a href="https://lugocorp.github.io/budgie/">See more</a>
           </span>
         </div>
       </div>

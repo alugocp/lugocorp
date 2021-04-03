@@ -56,8 +56,11 @@
           <div class="wrapper3 override-small">
             <div class="product">
               <img class="product-logo" src="res/products/moonshot.svg">
-              <h2>Coming soon</h2>
+              <h2>Moonshot</h2>
               <p>
+                Moonshot is an extension language over Lua that provides several new features such as compile-time type checking and inheritance-based OOP.
+                It allows you to work on bigger and better codebases while still leveraging Lua's speedy runtime and rich ecosystem.
+                Moonshot is a mobile game developer's new best friend!
               </p>
             </div>
             <div class="product">
@@ -67,8 +70,7 @@
                 Budgie is a lightweight framework for arcade-style games in HTML5.
                 It consists of both a command line tool and a library that bundles asset loading, event handling, and a sprite system.
               </p>
-              <p><b>more info coming soon</b></p>
-              <!--<a href="products/budgie">Find out more</a>-->
+              <a href="products/budgie">Read the docs</a>
             </div>
             <div class="product">
               <img class="product-logo" src="res/products/supercharge.png">
