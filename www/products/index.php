@@ -53,7 +53,7 @@
       <h1 class="topic" id="topic-development">Development</h1>
       <!-- FeatherWheel, Overflow, Slime, Quetzal, Arcana -->
       <!--<div class="product">
-        <div><img src="<?php echo($prefix);?>/res/products/moonshot.svg"/></div>
+        <div><img src="<?php //echo($prefix);?>/res/products/moonshot.svg"/></div>
         <div>
           <h2>Moonshot</h2>
           <span>
@@ -61,6 +61,17 @@
           </span>
         </div>
       </div>-->
+      <div class="product">
+        <div><img src="<?php echo($prefix);?>/res/products/lodr.svg"/></div>
+        <div>
+          <h2>Lödr</h2>
+          <span>
+            Lödr is a mini-library that adds simple loading screens to your web projects.
+            It allows you to configure, display and countdown on boot screens with a minimal footprint API.
+            <a href="products/lodr">See more</a>
+          </span>
+        </div>
+      </div>
       <div class="product">
         <div><img src="<?php echo($prefix);?>/res/products/cairn.svg"/></div>
         <div>

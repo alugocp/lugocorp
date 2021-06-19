@@ -55,6 +55,16 @@
           <h1 id="products" style="color:var(--gray1)">Products</h1>
           <div class="wrapper3 override-small">
             <div class="product">
+              <img class="product-logo" src="res/products/lodr.svg">
+              <h2>Lödr</h2>
+              <p>
+                Lödr is a mini-library for adding load screens onto webpages.
+                You can easily specify a background color, image and loading text to display on your web projects.
+                The minimalist API gives you ample control over when the loading screen is dispelled.
+              </p>
+              <a href="products/lodr">Learn more</a>
+            </div>
+            <div class="product">
               <img class="product-logo" src="res/products/moonshot.svg">
               <h2>Moonshot</h2>
               <p>
@@ -71,15 +81,6 @@
                 It consists of both a command line tool and a library that bundles asset loading, event handling, and a sprite system.
               </p>
               <a href="products/budgie">Read the docs</a>
-            </div>
-            <div class="product">
-              <img class="product-logo" src="res/products/supercharge.png">
-              <h2>Supercharge</h2>
-              <p>
-                Supercharge is a Minecraft mod that speeds up the core experience.
-                It boosts enemy spawn and drop rates, as well as ore generation.
-              </p>
-              <a href="https://github.com/alugocp/supercharge">View on GitHub</a>
             </div>
           </div>
           <a class="products-link" href="products">See more</a>
