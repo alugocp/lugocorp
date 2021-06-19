@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Page Not Found</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" href="./res/favicon.ico">
+<style>
+:root{
+  --box-shadow:0 0 2px #333;
+  --border-radius:8px;
+  --gray1:#fafafa;
+  --gray2:#dddddd;
+  --gray3:#aaaaaa;
+  --gray4:#454545;
+  --white:#ffffff;
+  --blue:#118ad6;
+}
+body{
+  background-color:var(--gray1);
+  font-family:OpenSans;
+  color:var(--gray4);
+  line-height:26px;
+  font-size:19px;
+  padding:0;
+  margin:0;
+}
+h1{
+  font-size:45px;
+  line-height:60px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Rubik;
+}
+.center{
+  text-align:center;
+}
+
+/* Page content */
+.wrapper3{
+  grid-template-columns:33% 33% 33%;
+  display:grid;
+}
+.wrapper2{
+  grid-template-columns:50% 50%;
+  display:grid;
+}
+.section{
+  position:relative;
+  padding-bottom:25px;
+  padding-top:15px;
+  width:100%;
+  left:0;
+}
+.section:first-of-type{
+  box-shadow:var(--box-shadow);
+}
+a{
+  transition:color 0.2s ease;
+  text-decoration:none;
+  color:var(--blue);
+}
+a:visited{
+  text-decoration:none;
+  color:var(--blue);
+}
+a:hover{
+  text-decoration:none;
+  cursor:pointer;
+  color:#6bbcef;
+}
+
+/* Navbar */
+.navbar{
+  grid-template-columns:80px auto;
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(100% - 30px);
+  font-family:Rubik;
+  position:relative;
+  padding:5px 15px;
+  display:grid;
+  z-index:1;
+}
+.navbar .icon{
+  height:80px;
+}
+.navbar div a{
+  line-height:80px;
+  padding-left:12px;
+  margin-left:12px;
+  font-weight:bold;
+  font-size:35px;
+}
+.navbar div a:not(:first-of-type){
+  border-left:solid 1px var(--gray2);
+}
+
+/* Footer */
+.footer{
+  background-color:#333;
+  color:var(--gray1);
+  text-align:center;
+  font-weight:bold;
+  padding:15px 0;
+}
+
+/* Small */
+@media only screen and (max-width:800px){
+  .wrapper3.override-small{
+    grid-template-columns:100%;
+  }
+  .wrapper2.override-small{
+    grid-template-columns:100%;
+  }
+  .navbar{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .navbar div{
+    grid-template-columns:100%;
+    display:grid;
+  }
+  .navbar span{
+    padding:0;
+    margin:0;
+  }
+  .navbar span:not(:first-of-type){
+    border-top:solid 1px var(--gray2);
+    border-left:none;
+  }
+}
+</style>
+<style>
+@font-face{
+  src:url("./res/fonts/Rubik-Regular.ttf");
+  font-family:"Rubik";
+}
+@font-face{
+  src:url("./res/fonts/Rubik-Bold.ttf");
+  font-family:"Rubik";
+  font-weight:bold;
+}
+@font-face{
+  src:url("./res/fonts/OpenSans-Regular.ttf");
+  font-family:"OpenSans";
+}
+@font-face{
+  src:url("./res/fonts/OpenSans-Bold.ttf");
+  font-family:"OpenSans";
+  font-weight:bold;
+}
+</style>
+    <style>.wrapper-404{
+  background-image:url("./res/bg.jpg");
+  min-height:calc(100vh - 152px);
+  background-position:center;
+  background-size:cover;
+  text-align:center;
+  position:relative;
+}
+.msg-404{
+  border-radius:var(--border-radius);
+  transform:translate(-50%,-50%);
+  padding:0 75px 35px 75px;
+  background-color:white;
+  position:absolute;
+  left:50%;
+  top:50%;
+}
+.msg-404 h1{
+  color:var(--blue);
+  font-size:100px;
+}
+.msg-404 p{
+  font-size:20px;
+}
+</style>
+  </head>
+  <body>
+    <div class="navbar">
+  <a href="/">
+    <img class="icon" src="./res/lugocorp-hex.svg" title="Home">
+  </a>
+  <div>
+      </div>
+</div>
+
+    <!-- 404 message -->
+    <div class="wrapper-404">
+      <div class="msg-404">
+        <h1>404</h1>
+        <p>The specified page does not exist</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+  LugoCorp, LLC
+</div>
+  </body>
+</html>

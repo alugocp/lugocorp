@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="cairn.svg"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 150 150"
+   height="150mm"
+   width="150mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="24"
+     inkscape:window-x="61"
+     inkscape:window-height="1056"
+     inkscape:window-width="1859"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="355.99223"
+     inkscape:cx="318.61019"
+     inkscape:zoom="0.5"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       sodipodi:nodetypes="cccc"
+       d="m 0,70 75,80 H 0 Z"
+       style="fill:#c44e3b;fill-opacity:1;stroke-width:1.41519;stroke-linecap:round;stroke-linejoin:round"
+       id="rect833" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="m 25,25 h 100 l 25,40 H 0 Z"
+       style="fill:#c44e3b;fill-opacity:1;stroke-width:1.34651;stroke-linecap:round;stroke-linejoin:round"
+       id="rect835" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="m 7,70 h 143 v 80 H 81.999992 Z"
+       style="fill:#c44e3b;fill-opacity:1;stroke-width:2.00138;stroke-linecap:round;stroke-linejoin:round"
+       id="rect833-3" />
+    <rect
+       y="0"
+       x="50"
+       height="20"
+       width="50"
+       id="rect873"
+       style="fill:#c44e3b;fill-opacity:1;stroke-width:2.40103;stroke-linecap:round;stroke-linejoin:round" />
+  </g>
+</svg>

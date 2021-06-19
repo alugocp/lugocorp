@@ -1,0 +1,387 @@
+<!-- Built via Cairn (http://lugocorp.net) -->
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>LugoCorp - Web development</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" href="../../res/favicon.ico">
+<style>
+:root{
+  --box-shadow:0 0 2px #333;
+  --border-radius:8px;
+  --gray1:#fafafa;
+  --gray2:#dddddd;
+  --gray3:#aaaaaa;
+  --gray4:#454545;
+  --white:#ffffff;
+  --blue:#118ad6;
+}
+body{
+  background-color:var(--gray1);
+  font-family:OpenSans;
+  color:var(--gray4);
+  line-height:26px;
+  font-size:19px;
+  padding:0;
+  margin:0;
+}
+h1{
+  font-size:45px;
+  line-height:60px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Rubik;
+}
+.center{
+  text-align:center;
+}
+
+/* Page content */
+.wrapper3{
+  grid-template-columns:33% 33% 33%;
+  display:grid;
+}
+.wrapper2{
+  grid-template-columns:50% 50%;
+  display:grid;
+}
+.section{
+  position:relative;
+  padding-bottom:25px;
+  padding-top:15px;
+  width:100%;
+  left:0;
+}
+.section:first-of-type{
+  box-shadow:var(--box-shadow);
+}
+a{
+  transition:color 0.2s ease;
+  text-decoration:none;
+  color:var(--blue);
+}
+a:visited{
+  text-decoration:none;
+  color:var(--blue);
+}
+a:hover{
+  text-decoration:none;
+  cursor:pointer;
+  color:#6bbcef;
+}
+
+/* Navbar */
+.navbar{
+  grid-template-columns:80px auto;
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(100% - 30px);
+  font-family:Rubik;
+  position:relative;
+  padding:5px 15px;
+  display:grid;
+  z-index:1;
+}
+.navbar .icon{
+  height:80px;
+}
+.navbar div a{
+  line-height:80px;
+  padding-left:12px;
+  margin-left:12px;
+  font-weight:bold;
+  font-size:35px;
+}
+.navbar div a:not(:first-of-type){
+  border-left:solid 1px var(--gray2);
+}
+
+/* Footer */
+.footer{
+  background-color:#333;
+  color:var(--gray1);
+  text-align:center;
+  font-weight:bold;
+  padding:15px 0;
+}
+
+/* Small */
+@media only screen and (max-width:800px){
+  .wrapper3.override-small{
+    grid-template-columns:100%;
+  }
+  .wrapper2.override-small{
+    grid-template-columns:100%;
+  }
+  .navbar{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .navbar div{
+    grid-template-columns:100%;
+    display:grid;
+  }
+  .navbar span{
+    padding:0;
+    margin:0;
+  }
+  .navbar span:not(:first-of-type){
+    border-top:solid 1px var(--gray2);
+    border-left:none;
+  }
+}
+</style>
+<style>
+@font-face{
+  src:url("../../res/fonts/Rubik-Regular.ttf");
+  font-family:"Rubik";
+}
+@font-face{
+  src:url("../../res/fonts/Rubik-Bold.ttf");
+  font-family:"Rubik";
+  font-weight:bold;
+}
+@font-face{
+  src:url("../../res/fonts/OpenSans-Regular.ttf");
+  font-family:"OpenSans";
+}
+@font-face{
+  src:url("../../res/fonts/OpenSans-Bold.ttf");
+  font-family:"OpenSans";
+  font-weight:bold;
+}
+</style>
+    <style>.narrow{
+  background-color:var(--gray2);
+}
+.narrow-content{
+  min-height:calc(100vh - 124px);
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(80% - 70px);
+  position:relative;
+  padding:15px 35px;
+  left:10%;
+}
+.separator{
+  border:solid 1px var(--gray2);
+  margin:35px 0;
+  height:0;
+}
+
+/* Small */
+@media only screen and (max-width:1500px){
+  .narrow .narrow-content{
+    width:calc(100% - 10px);
+    padding:15px 5px;
+    left:0;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .skills .table{
+    grid-template-columns:100%;
+  }
+  .skills{
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .portfolio .wrapper2{
+    grid-template-columns:100%;
+  }
+  .portfolio{
+    text-align:center;
+  }
+  .service-poster{
+    display:none;
+  }
+}
+</style>
+    <style>/* Intro */
+h1{
+  color:var(--blue);
+}
+.intro-wrapper{
+  overflow:auto;
+}
+.service-icon{
+  background-color:var(--blue);
+  transform:translateY(14px);
+  border-radius:50%;
+  padding:5px;
+  width:50px;
+}
+.service-poster{
+  border-radius:var(--border-radius);
+  background-color:var(--blue);
+  shape-outside:margin-box;
+  margin:15px 25px;
+  margin-top:0;
+  float:right;
+  width:33%;
+}
+
+/* Skills */
+.skills{
+  border-radius:var(--border-radius);
+  background-color:var(--blue);
+  padding:25px;
+  padding-top:5px;
+}
+.skills .table{
+  grid-template-columns:33% 33% 33%;
+  display:grid;
+}
+.skills .entry{
+  border-radius:var(--border-radius);
+  background-color:var(--gray1);
+  color:var(--gray4);
+  text-align:center;
+  font-weight:bold;
+  padding:15px;
+  margin:5px;
+}
+.skills h1{
+  color:var(--gray1);
+}
+@media only screen and (max-width:800px){
+  .skills .table{
+    grid-template-columns:100%;
+  }
+  .skills{
+    text-align:center;
+  }
+}
+
+/* Portfolio */
+.past-project{
+  border-radius:var(--border-radius);
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  padding:25px;
+  margin:15px;
+}
+@media only screen and (max-width:1000px){
+  .portfolio .wrapper2{
+    grid-template-columns:100%;
+  }
+  .portfolio{
+    text-align:center;
+  }
+  .service-poster{
+    display:none;
+  }
+}
+</style>
+  </head>
+  <body class="narrow">
+    <div class="navbar">
+  <a href="/">
+    <img class="icon" src="../../res/lugocorp-hex.svg" title="Home">
+  </a>
+  <div>
+    <a href="#tech" title="Tech">Tech</a><a href="#portfolio" title="Portfolio">Portfolio</a>  </div>
+</div>
+    <div class="narrow-content">
+      <div class="intro-wrapper">
+        <h1>
+          <img class="service-icon" src="../../res/icons/html.svg">
+           Web development
+        </h1>
+        <img class="service-poster" src="../../res/icons/html.svg">
+        <p>
+          We do web dev here.
+          Like, a lot of web dev.
+          LugoCorp got started on web development for local customers, and we're excited to expand this service to a wider range of clientelle.
+          We can design and develop front-end UIs to amaze your customers and back-end systems that keep your business running smoothly.
+          Whether you've got a style guide or not we can help develop your brand in the digital world.
+          Our mixed team of designers, artists and coders are ready to help you develop the website of your dreams!
+        </p>
+      </div>
+      <div class="separator"></div>
+      <div class="skills">
+        <h1 id="tech">Technologies Used</h1>
+        <div class="table">
+          <div class="entry">WebAssembly</div>
+          <div class="entry">WordPress</div>
+          <div class="entry">Bootstrap</div>
+          <div class="entry">Shiny R</div>
+          <div class="entry">Flask/Jinja</div>
+          <div class="entry">MySQL</div>
+          <div class="entry">PHP</div>
+          <div class="entry">Node.js</div>
+          <div class="entry">PostgreSQL</div>
+          <div class="entry">React</div>
+          <div class="entry">Ruby Rails</div>
+          <div class="entry">SQLite3</div>
+        </div>
+      </div>
+      <p>
+        Here at LugoCorp we use a variety of technologies to bring the website of your dreams to life.
+        Above you'll find listed a number of these technologies.
+        If you're not familiar with any of these technologies don't worry, that's our job!
+        We just like to let people know what our stack may look like.
+        If you do have a preference for which technologies we use for your product then go ahead and let us know.
+      </p>
+      <div class="separator"></div>
+      <div class="portfolio">
+        <h1 id="portfolio">Portfolio</h1>
+        <div class="wrapper2">
+          <div class="past-project">
+            <h2>Tavolo Solutions</h2>
+            <span>
+              Tavolo Solutions is a partner company that specializes in UI/UX design and branding.
+              We built their site and continue to collaborate on shared client projects.
+              You can view their site <a href="http://www.tavolosolutions.design/">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Tranzed Academy</h2>
+            <span>
+              We updated the website of a local program that gives high schoolers more flexible school/work hours and apprenticeships.
+              You can visit the program <a href="https://tranzedacademy.org/">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Maryland Workforce Alliance</h2>
+            <span>
+              The Maryland Workforce Alliance is a local group dedicated to creating a better job market for Marylanders.
+              LugoCorp helped out by creating the alliance's website.
+              You can help support their cause <a href="http://www.mdworkforcealliance.com/">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Victor Ramirez Law, LLC</h2>
+            <span>
+              We built a brand-new website for Victor Ramirez Law, LLC.
+              Victor Ramirez is a local attorney who helps in traffic, injury and immigration cases.
+              You can view the site <a href="http://victorramirezlaw.com/">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>Edhaus</h2>
+            <span>
+              We created a custom website for a local educator.
+              She's taught at schools around the world from College Park to Nepal.
+              You can check out her site <a href="https://farhananshah.github.io/edhaus">here</a>.
+            </span>
+          </div>
+          <div class="past-project">
+            <h2>MPLEX</h2>
+            <span>
+              We made some updates to a website for a VR gaming startup at the University of Maryland.
+              They're working to make a better VR gaming experience with their tanks combat game Core Disruption.
+              Find out more <a href="http://coredisruption.com/">here</a>.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+  LugoCorp, LLC
+</div>
+  </body>
+</html>

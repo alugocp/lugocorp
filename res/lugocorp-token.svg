@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22mm"
+   height="22mm"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg1554"
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
+   sodipodi:docname="lugocorp-token.svg">
+  <defs
+     id="defs1548" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.86"
+     inkscape:cx="141.95105"
+     inkscape:cy="81.685082"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1859"
+     inkscape:window-height="1056"
+     inkscape:window-x="61"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1551">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-275)">
+    <circle
+       style="fill:#118ad6;fill-opacity:1;fill-rule:nonzero;stroke:#454545;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1534"
+       cx="11"
+       cy="286"
+       r="10.5" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1536"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Baloo;-inkscape-font-specification:'Baloo Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,36.912385,217.25981)"><flowRegion
+         id="flowRegion1538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Baloo;-inkscape-font-specification:'Baloo Bold'"><rect
+           id="rect1540"
+           width="43.170185"
+           height="56.817532"
+           x="-75.756706"
+           y="6.713696"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Baloo;-inkscape-font-specification:'Baloo Bold'" /></flowRegion><flowPara
+         id="flowPara1542" /></flowRoot>    <g
+       aria-label="L"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.22626305px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.5056566"
+       id="text1546">
+      <path
+         d="m 9.3733657,292.46253 q -0.8697293,0 -1.3753859,-0.50565 -0.5056566,-0.50566 -0.5056566,-1.37539 v -10.45698 q 0.2224889,-0.0404 0.7079192,-0.10113 0.4854303,-0.0809 0.9304081,-0.0809 0.4652041,0 0.8090505,0.0809 0.364073,0.0607 0.606788,0.24272 0.242715,0.18203 0.364073,0.50565 0.121357,0.32362 0.121357,0.84951 v 7.98937 h 4.631814 q 0.141584,0.22249 0.262942,0.60679 0.121357,0.36407 0.121357,0.7686 0,0.80905 -0.343846,1.15289 -0.343846,0.32362 -0.910182,0.32362 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Baloo;-inkscape-font-specification:'Baloo Bold';fill:#fafafa;fill-opacity:1;stroke-width:0.5056566"
+         id="path1508"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
