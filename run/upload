@@ -1,15 +1,21 @@
 #!/bin/bash
-OUTPUT=".build"
-cairn www "$OUTPUT"
-pushd www > /dev/null
-php 404.php > "../$OUTPUT/404.html"
-popd > /dev/null
+# Use --dry-run to disable git features
 
-pushd "$OUTPUT" > /dev/null
+OUTPUT=".build"
+./run/cairn www "$OUTPUT"
+cd www
+php 404.php > "../$OUTPUT/404.html"
+cd ..
+
+if [ "$1" = "--dry-run" ]; then
+    exit 0
+fi
+
+cd "$OUTPUT"
 git init
 git remote add origin https://github.com/alugocp/lugocorp.git
 git add .
 git commit -m "Upload on $(date)"
 git push -f origin master:gh-pages
-popd > /dev/null
+cd ..
 rm -rf "$OUTPUT"

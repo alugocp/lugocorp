@@ -1,9 +1,25 @@
 #!/bin/bash
 SERVER="127.0.0.1:2019"
-gnome-terminal -e "php -S $SERVER -t $(pwd)/www"
+SPINUP="php -S $SERVER -t $(pwd)/www"
+
+# Check for Gnome system
+type gnome-terminal > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    gnome-terminal -e "$SPINUP"
+else
+    # Check for OSX system
+    type osascript > /dev/null 2>&1
+    if [ $? -eq 0 ]; then
+        osascript -e "$( cat <<- END
+        tell app "Terminal"
+            do script "$SPINUP"
+        end tell
+        END)" > /dev/null 2>&1
+    fi
+fi
 [ $? = 0 ] && echo "Dev server is online"
 
 python3 << EOF
 import webbrowser
-webbrowser.open_new_tab("http://localhost:2019")
+webbrowser.open_new_tab("http://$SERVER")
 EOF
