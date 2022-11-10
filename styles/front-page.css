@@ -1,0 +1,142 @@
+.content{
+  position:relative;
+  width:calc(80% - 70px);
+  padding:15px 35px;
+  left:10%;
+}
+
+/* Welcome */
+.welcome-wrapper{
+  background-image:url("../res/bg.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100%;
+  position:relative;
+  padding:80px 0px;
+  width:100%;
+  left:0%;
+}
+.welcome{
+  position:relative;
+  box-shadow:var(--box-shadow);
+  background-color:var(--gray1);
+  border-radius:var(--border-radius);
+  transform:translateX(-50%);
+  padding:25px;
+  width:50%;
+  left:50%;
+}
+.welcome .logo{
+  transform:translateX(-50%);
+  position:relative;
+  width:80%;
+  left:50%;
+}
+.welcome p{
+  text-align:center;
+}
+
+
+/* Media */
+.timeline{
+  grid-template-columns:48% 48%;
+  grid-column-gap:4%;
+  display:grid;
+}
+@media only screen and (max-width:1000px){
+  .timeline{
+    grid-template-columns:100%;
+  }
+}
+
+/* Partners */
+.partners{
+  border-radius:var(--border-radius);
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  margin:15px 0;
+  padding:20px;
+}
+.partner{
+  width:calc(25% - 75px);
+  margin:25px;
+}
+
+/* Products */
+.product{
+  border-radius:var(--border-radius);
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  text-align:center;
+  padding:25px;
+  margin:25px;
+}
+.product .product-logo{
+  transform:translateX(-50%);
+  margin-bottom:15px;
+  position:relative;
+  max-height:200px;
+  display:block;
+  left:50%;
+}
+a.products-link{
+  color:var(--white);
+  text-align:center;
+  font-weight:bold;
+  margin-top:15px;
+  font-size:30px;
+  display:block;
+}
+a.products-link:visited{
+  color:var(--white);
+}
+a.products-link:hover{
+  color:var(--white);
+}
+
+/* Contact */
+.contact .icons-wrapper{
+  grid-template-columns:33% 33% 33%;
+  text-align:center;
+  font-weight:bold;
+  display:grid;
+}
+.contact .icons-wrapper img{
+  margin-top:75px;
+  width:60px;
+}
+
+/* Small */
+@media only screen and (max-width:1500px){
+  .content{
+    width:calc(100% - 10px);
+    padding:15px 5px;
+    left:0;
+  }
+  .service{
+    margin:5px;
+  }
+}
+@media only screen and (max-width:800px){
+  .partner{
+    width:calc(80% - 10px);
+    position:relative;
+    padding:25px 0px;
+    margin:5px;
+    left:10%;
+  }
+  .partner:not(:last-of-type){
+    border-bottom:solid 3px var(--gray2);
+  }
+  .welcome{
+    width:calc(100% - 10px);
+    border-radius:0;
+    padding:5px;
+  }
+  .welcome .logo{
+    width:calc(100% - 10px);
+  }
+  .contact .icons-col span{
+    display:none;
+  }
+}

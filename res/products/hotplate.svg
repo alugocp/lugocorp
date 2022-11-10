@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="118mm"
+   height="84mm"
+   viewBox="0 0 118 84"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="hotplate.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.08"
+     inkscape:cx="386.76176"
+     inkscape:cy="374.85196"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1859"
+     inkscape:window-height="1056"
+     inkscape:window-x="61"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-213)">
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.14082718;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 17.567258,245.90353 c -8.6e-4,27.23476 13.762698,37.00176 40.073014,47.43828 17.29043,5.7664 49.400068,7.85131 59.450138,-18.14261 -38.168798,-14.21153 -53.2021,-20.75567 -99.523152,-29.29567 z"
+       id="path818-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="opacity:1;fill:#787878;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 3.8595672,214.6473 c -4.02423891,-0.0695 -3.53431049,4.77361 -0.1922357,8.0667 13.6963225,10.37768 13.2045705,11.52434 16.8358265,16.94328 -1.305616,2.41741 -1.972847,5.07816 -1.98179,7.90288 -2.65e-4,16.52215 22.00866,34.89546 49.158238,41.03781 27.149555,6.14225 49.158504,-2.27246 49.158244,-18.79472 -1.8e-4,-16.52206 -22.008999,-34.89502 -49.158244,-41.03729 -16.694962,-3.77566 -32.247673,-2.1365 -41.299288,4.3527 -4.725403,-6.2432 -5.254911,-9.20144 -16.303558,-16.16193 -2.715361,-1.61649 -4.7616167,-2.28427 -6.2171928,-2.30943 z"
+       id="path818"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccccccccs" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.573755,224.01653 c -1.714682,1.37131 -10.4484067,-4.53268 -9.1041677,-7.03031 1.708723,-1.20284 11.9285167,3.97762 9.1041677,7.03031 z"
+       id="path876"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="opacity:1;fill:#464646;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.79274452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.527711,243.05819 c -7.223605,15.76826 17.990335,36.03774 43.152788,42.5595 26.366383,4.83626 43.634351,-0.76596 45.560651,-14.12635 0,-14.32355 -16.545598,-30.98122 -41.708058,-37.50299 -25.162459,-6.52176 -43.297717,-1.25505 -47.005381,9.06984 z"
+       id="path818-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

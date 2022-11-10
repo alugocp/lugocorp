@@ -1,0 +1,279 @@
+<!-- Built via Cairn (http://lugocorp.net) -->
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+    <title>LugoCorp - Partners</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" href="../res/favicon.ico">
+<style>
+:root{
+  --box-shadow:0 0 2px #333;
+  --border-radius:8px;
+  --gray1:#fafafa;
+  --gray2:#dddddd;
+  --gray3:#aaaaaa;
+  --gray4:#454545;
+  --white:#ffffff;
+  --blue:#118ad6;
+}
+body{
+  background-color:var(--gray1);
+  font-family:OpenSans;
+  color:var(--gray4);
+  line-height:26px;
+  font-size:19px;
+  padding:0;
+  margin:0;
+}
+h1{
+  font-size:45px;
+  line-height:60px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Rubik;
+}
+.center{
+  text-align:center;
+}
+
+/* Page content */
+.wrapper3{
+  grid-template-columns:33% 33% 33%;
+  display:grid;
+}
+.wrapper2{
+  grid-template-columns:50% 50%;
+  display:grid;
+}
+.section{
+  position:relative;
+  padding-bottom:25px;
+  padding-top:15px;
+  width:100%;
+  left:0;
+}
+.section:first-of-type{
+  box-shadow:var(--box-shadow);
+}
+a{
+  transition:color 0.2s ease;
+  text-decoration:none;
+  color:var(--blue);
+}
+a:visited{
+  text-decoration:none;
+  color:var(--blue);
+}
+a:hover{
+  text-decoration:none;
+  cursor:pointer;
+  color:#6bbcef;
+}
+
+/* Navbar */
+.navbar{
+  grid-template-columns:80px auto;
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(100% - 30px);
+  font-family:Rubik;
+  position:relative;
+  padding:5px 15px;
+  display:grid;
+  z-index:1;
+}
+.navbar .icon{
+  height:80px;
+}
+.navbar div a{
+  line-height:80px;
+  padding-left:12px;
+  margin-left:12px;
+  font-weight:bold;
+  font-size:35px;
+}
+.navbar div a:not(:first-of-type){
+  border-left:solid 1px var(--gray2);
+}
+
+/* Footer */
+.footer{
+  background-color:#333;
+  color:var(--gray1);
+  text-align:center;
+  font-weight:bold;
+  padding:15px 0;
+}
+
+/* Small */
+@media only screen and (max-width:800px){
+  .wrapper3.override-small{
+    grid-template-columns:100%;
+  }
+  .wrapper2.override-small{
+    grid-template-columns:100%;
+  }
+  .navbar{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .navbar div{
+    grid-template-columns:100%;
+    display:grid;
+  }
+  .navbar span{
+    padding:0;
+    margin:0;
+  }
+  .navbar span:not(:first-of-type){
+    border-top:solid 1px var(--gray2);
+    border-left:none;
+  }
+}
+</style>
+<style>
+@font-face{
+  src:url("../res/fonts/Rubik-Regular.ttf");
+  font-family:"Rubik";
+}
+@font-face{
+  src:url("../res/fonts/Rubik-Bold.ttf");
+  font-family:"Rubik";
+  font-weight:bold;
+}
+@font-face{
+  src:url("../res/fonts/OpenSans-Regular.ttf");
+  font-family:"OpenSans";
+}
+@font-face{
+  src:url("../res/fonts/OpenSans-Bold.ttf");
+  font-family:"OpenSans";
+  font-weight:bold;
+}
+</style>
+    <style>.narrow{
+  background-color:var(--gray2);
+}
+.narrow-content{
+  min-height:calc(100vh - 124px);
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(80% - 70px);
+  position:relative;
+  padding:15px 35px;
+  left:10%;
+}
+.separator{
+  border:solid 1px var(--gray2);
+  margin:35px 0;
+  height:0;
+}
+
+/* Small */
+@media only screen and (max-width:1500px){
+  .narrow .narrow-content{
+    width:calc(100% - 10px);
+    padding:15px 5px;
+    left:0;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .skills .table{
+    grid-template-columns:100%;
+  }
+  .skills{
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .portfolio .wrapper2{
+    grid-template-columns:100%;
+  }
+  .portfolio{
+    text-align:center;
+  }
+  .service-poster{
+    display:none;
+  }
+}
+</style>
+    <style>.partners-categories{
+  grid-template-columns:33% 34% 33%;
+  display:grid;
+}
+.partners-categories div{
+  padding-bottom:15px;
+  text-align:center;
+  overflow:hidden;
+  margin:15px;
+}
+.partners-categories h1{
+  border-radius:var(--border-radius);
+  background-color:var(--blue);
+  margin-top:0;
+  color:white;
+}
+.partners-categories img{
+  max-height:200px;
+  width:70%;
+  margin:40px 0;
+}
+
+@media only screen and (max-width:1500px){
+  .partners-categories.override-small{
+    grid-template-columns:100%;
+  }
+}
+</style>
+  </head>
+  <body class="narrow">
+    <div class="navbar">
+  <a href="/">
+    <img class="icon" src="../res/lugocorp-hex.svg" title="Home">
+  </a>
+  <div>
+    <a href="#intro" title="Intro">Intro</a><a href="#partners" title="Partners">Partners</a>  </div>
+</div>
+    <div class="narrow-content">
+      <h1 id="intro">Introduction</h1>
+      <p>
+        Here at LugoCorp we pride ourselves on providing critical organizations with software that's supportive of their needs.
+        We build scripts and websites for educators, civil rights, veterans' affairs and mutual aid groups.
+        Without our partners we wouldn't be able to change the world for the better, so we decided to dedicate an entire page just for them.
+      </p>
+      <div class="separator"></div>
+      <h1 id="partners">Partners list</h1>
+      <div class="partners-categories override-small">
+        <div>
+          <h1>Design</h1>
+          <img src="../res/partners/tavolo.png" title="Tavolo Solutions">
+        </div>
+        <div>
+          <h1>Cybersecurity</h1>
+          <img src="../res/partners/haystack.svg" title="Haystack Solutions">
+        </div>
+        <div>
+          <h1>Law</h1>
+          <img src="../res/partners/ramirez.svg" title="Victor Ramirez Law, LLC">
+        </div>
+        <div>
+          <h1>Education</h1>
+          <img src="../res/partners/nurostream.png" title="NuroStream, LLC">
+          <img src="../res/partners/tranzed.png" title="Tranzed Academy">
+          <img src="../res/partners/edhaus.png" title="Edhaus">
+        </div>
+        <div>
+          <h1>Workforce</h1>
+          <img src="../res/partners/mwa.png" title="Maryland Workforce Alliance">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+  LugoCorp, LLC
+</div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+
+/* Topics */
+.topics{
+  grid-template-columns:25% 25% 25% 25%;
+  display:grid;
+}
+.topics a{
+  font-weight:bold;
+  margin-top:25px;
+}
+@media only screen and (max-width:1000px){
+  .topics{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+}
+
+/* Products */
+.topic{
+  margin-bottom:25px;
+  color:var(--blue);
+  margin-top:75px;
+}
+.product{
+  grid-template-columns:25% 75%;
+  margin-bottom:100px;
+  position:relative;
+  display:grid;
+}
+.product div{
+  position:relative;
+}
+.product img{
+  position:relative;
+  width:60%;
+  left:20%;
+}
+@media only screen and (max-width:1000px){
+  .topic{
+    text-align:center;
+  }
+  .product{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .product img{
+    width:40%;
+    left:0;
+  }
+}

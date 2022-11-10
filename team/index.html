@@ -1,0 +1,339 @@
+<!-- Built via Cairn (http://lugocorp.net) -->
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>LugoCorp - Team</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" href="../res/favicon.ico">
+<style>
+:root{
+  --box-shadow:0 0 2px #333;
+  --border-radius:8px;
+  --gray1:#fafafa;
+  --gray2:#dddddd;
+  --gray3:#aaaaaa;
+  --gray4:#454545;
+  --white:#ffffff;
+  --blue:#118ad6;
+}
+body{
+  background-color:var(--gray1);
+  font-family:OpenSans;
+  color:var(--gray4);
+  line-height:26px;
+  font-size:19px;
+  padding:0;
+  margin:0;
+}
+h1{
+  font-size:45px;
+  line-height:60px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Rubik;
+}
+.center{
+  text-align:center;
+}
+
+/* Page content */
+.wrapper3{
+  grid-template-columns:33% 33% 33%;
+  display:grid;
+}
+.wrapper2{
+  grid-template-columns:50% 50%;
+  display:grid;
+}
+.section{
+  position:relative;
+  padding-bottom:25px;
+  padding-top:15px;
+  width:100%;
+  left:0;
+}
+.section:first-of-type{
+  box-shadow:var(--box-shadow);
+}
+a{
+  transition:color 0.2s ease;
+  text-decoration:none;
+  color:var(--blue);
+}
+a:visited{
+  text-decoration:none;
+  color:var(--blue);
+}
+a:hover{
+  text-decoration:none;
+  cursor:pointer;
+  color:#6bbcef;
+}
+
+/* Navbar */
+.navbar{
+  grid-template-columns:80px auto;
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(100% - 30px);
+  font-family:Rubik;
+  position:relative;
+  padding:5px 15px;
+  display:grid;
+  z-index:1;
+}
+.navbar .icon{
+  height:80px;
+}
+.navbar div a{
+  line-height:80px;
+  padding-left:12px;
+  margin-left:12px;
+  font-weight:bold;
+  font-size:35px;
+}
+.navbar div a:not(:first-of-type){
+  border-left:solid 1px var(--gray2);
+}
+
+/* Footer */
+.footer{
+  background-color:#333;
+  color:var(--gray1);
+  text-align:center;
+  font-weight:bold;
+  padding:15px 0;
+}
+
+/* Small */
+@media only screen and (max-width:800px){
+  .wrapper3.override-small{
+    grid-template-columns:100%;
+  }
+  .wrapper2.override-small{
+    grid-template-columns:100%;
+  }
+  .navbar{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .navbar div{
+    grid-template-columns:100%;
+    display:grid;
+  }
+  .navbar span{
+    padding:0;
+    margin:0;
+  }
+  .navbar span:not(:first-of-type){
+    border-top:solid 1px var(--gray2);
+    border-left:none;
+  }
+}
+</style>
+<style>
+@font-face{
+  src:url("../res/fonts/Rubik-Regular.ttf");
+  font-family:"Rubik";
+}
+@font-face{
+  src:url("../res/fonts/Rubik-Bold.ttf");
+  font-family:"Rubik";
+  font-weight:bold;
+}
+@font-face{
+  src:url("../res/fonts/OpenSans-Regular.ttf");
+  font-family:"OpenSans";
+}
+@font-face{
+  src:url("../res/fonts/OpenSans-Bold.ttf");
+  font-family:"OpenSans";
+  font-weight:bold;
+}
+</style>
+    <style>.narrow{
+  background-color:var(--gray2);
+}
+.narrow-content{
+  min-height:calc(100vh - 124px);
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(80% - 70px);
+  position:relative;
+  padding:15px 35px;
+  left:10%;
+}
+.separator{
+  border:solid 1px var(--gray2);
+  margin:35px 0;
+  height:0;
+}
+
+/* Small */
+@media only screen and (max-width:1500px){
+  .narrow .narrow-content{
+    width:calc(100% - 10px);
+    padding:15px 5px;
+    left:0;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .skills .table{
+    grid-template-columns:100%;
+  }
+  .skills{
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .portfolio .wrapper2{
+    grid-template-columns:100%;
+  }
+  .portfolio{
+    text-align:center;
+  }
+  .service-poster{
+    display:none;
+  }
+}
+</style>
+    <style>
+.people{
+  grid-template-columns:33% 34% 33%;
+  text-align:center;
+  display:grid;
+}
+
+.person{
+  box-shadow:var(--box-shadow);
+  border-radius:var(--border-radius);
+  padding-top:15px;
+  margin:0px 15px;
+  margin-bottom:50px;
+}
+.person h2{
+  color:var(--blue);
+}
+.person h3{
+  font-weight:normal;
+  color:var(--gray3);
+}
+
+.propic{
+  border:solid 10px var(--gray2);
+  border-radius:50%;
+  width:60%;
+}
+
+@media only screen and (max-width:1500px){
+  .people.override-small{
+    grid-template-columns:100%;
+  }
+}
+</style>
+  </head>
+  <body class="narrow">
+    <div class="navbar">
+  <a href="/">
+    <img class="icon" src="../res/lugocorp-hex.svg" title="Home">
+  </a>
+  <div>
+    <a href="#current" title="Current">Current</a><a href="#past" title="Past">Past</a>  </div>
+</div>
+    <div class="narrow-content">
+      <h1 id="current">Current</h1>
+      <p>
+        These are the people who currently work on various teams at LugoCorp.
+      </p>
+      <div class="people override-small">
+        <div class="person">
+          <img class="propic" src="../res/people/alex-lugo.jpeg">
+          <h2>Alex Lugo</h2>
+          <h3>Founder</h3>
+          <h3>CEO</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/samrat-somanna.jpg">
+          <h2>Samrat Somanna</h2>
+          <h3>Web scraping</h3>
+          <h3>Python and C++</h3>
+          <h3>Flutter development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/damien-lutrin.png">
+          <h2>Damien Lutrin</h2>
+          <h3>React Native</h3>
+          <h3>JS development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/chris-martinez.jpg">
+          <h2>Chris Martinez</h2>
+          <h3>Frontend development</h3>
+          <h3>C# with Xamarin</h3>
+          <h3>Flutter development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/naomi-stewart.jpg">
+          <h2>Naomi Stewart</h2>
+          <h3>JS development</h3>
+          <h3>Frontend development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/placeholder.png">
+          <h2>Saman Jabari</h2>
+          <h3>JS development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/nikita-krupin.jpg">
+          <h2>Nikita Krupin</h2>
+          <h3>Software engineering</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/laudan-nikoobakht.jpg">
+          <h2>Laudan Nikoobakht</h2>
+          <h3>Frontend development</h3>
+        </div>
+      </div>
+
+      <hr class="separator"/>
+
+      <h1 id="past">Past</h1>
+      <p>
+        These are the people who have worked on our products in the past and are currently working elsewhere.
+      </p>
+      <div class="people override-small">
+        <div class="person">
+          <img class="propic" src="../res/people/placeholder.png">
+          <h2>Kayvan Fouladi</h2>
+          <h3>Frontend development</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/eric-robertson.jpg">
+          <h2>Eric Robertson</h2>
+          <h3>C# with Xamarin</h3>
+        </div>
+
+        <div class="person">
+          <img class="propic" src="../res/people/rukaiya-anwar.png">
+          <h2>Rukaiya Anwar</h2>
+          <h3>Frontend development</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+  LugoCorp, LLC
+</div>
+  </body>
+</html>

@@ -1,0 +1,378 @@
+<!-- Built via Cairn (http://lugocorp.net) -->
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>LugoCorp - Products</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" href="../res/favicon.ico">
+<style>
+:root{
+  --box-shadow:0 0 2px #333;
+  --border-radius:8px;
+  --gray1:#fafafa;
+  --gray2:#dddddd;
+  --gray3:#aaaaaa;
+  --gray4:#454545;
+  --white:#ffffff;
+  --blue:#118ad6;
+}
+body{
+  background-color:var(--gray1);
+  font-family:OpenSans;
+  color:var(--gray4);
+  line-height:26px;
+  font-size:19px;
+  padding:0;
+  margin:0;
+}
+h1{
+  font-size:45px;
+  line-height:60px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Rubik;
+}
+.center{
+  text-align:center;
+}
+
+/* Page content */
+.wrapper3{
+  grid-template-columns:33% 33% 33%;
+  display:grid;
+}
+.wrapper2{
+  grid-template-columns:50% 50%;
+  display:grid;
+}
+.section{
+  position:relative;
+  padding-bottom:25px;
+  padding-top:15px;
+  width:100%;
+  left:0;
+}
+.section:first-of-type{
+  box-shadow:var(--box-shadow);
+}
+a{
+  transition:color 0.2s ease;
+  text-decoration:none;
+  color:var(--blue);
+}
+a:visited{
+  text-decoration:none;
+  color:var(--blue);
+}
+a:hover{
+  text-decoration:none;
+  cursor:pointer;
+  color:#6bbcef;
+}
+
+/* Navbar */
+.navbar{
+  grid-template-columns:80px auto;
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(100% - 30px);
+  font-family:Rubik;
+  position:relative;
+  padding:5px 15px;
+  display:grid;
+  z-index:1;
+}
+.navbar .icon{
+  height:80px;
+}
+.navbar div a{
+  line-height:80px;
+  padding-left:12px;
+  margin-left:12px;
+  font-weight:bold;
+  font-size:35px;
+}
+.navbar div a:not(:first-of-type){
+  border-left:solid 1px var(--gray2);
+}
+
+/* Footer */
+.footer{
+  background-color:#333;
+  color:var(--gray1);
+  text-align:center;
+  font-weight:bold;
+  padding:15px 0;
+}
+
+/* Small */
+@media only screen and (max-width:800px){
+  .wrapper3.override-small{
+    grid-template-columns:100%;
+  }
+  .wrapper2.override-small{
+    grid-template-columns:100%;
+  }
+  .navbar{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .navbar div{
+    grid-template-columns:100%;
+    display:grid;
+  }
+  .navbar span{
+    padding:0;
+    margin:0;
+  }
+  .navbar span:not(:first-of-type){
+    border-top:solid 1px var(--gray2);
+    border-left:none;
+  }
+}
+</style>
+<style>
+@font-face{
+  src:url("../res/fonts/Rubik-Regular.ttf");
+  font-family:"Rubik";
+}
+@font-face{
+  src:url("../res/fonts/Rubik-Bold.ttf");
+  font-family:"Rubik";
+  font-weight:bold;
+}
+@font-face{
+  src:url("../res/fonts/OpenSans-Regular.ttf");
+  font-family:"OpenSans";
+}
+@font-face{
+  src:url("../res/fonts/OpenSans-Bold.ttf");
+  font-family:"OpenSans";
+  font-weight:bold;
+}
+</style>
+    <style>.narrow{
+  background-color:var(--gray2);
+}
+.narrow-content{
+  min-height:calc(100vh - 124px);
+  background-color:var(--gray1);
+  box-shadow:var(--box-shadow);
+  width:calc(80% - 70px);
+  position:relative;
+  padding:15px 35px;
+  left:10%;
+}
+.separator{
+  border:solid 1px var(--gray2);
+  margin:35px 0;
+  height:0;
+}
+
+/* Small */
+@media only screen and (max-width:1500px){
+  .narrow .narrow-content{
+    width:calc(100% - 10px);
+    padding:15px 5px;
+    left:0;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .skills .table{
+    grid-template-columns:100%;
+  }
+  .skills{
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .portfolio .wrapper2{
+    grid-template-columns:100%;
+  }
+  .portfolio{
+    text-align:center;
+  }
+  .service-poster{
+    display:none;
+  }
+}
+</style>
+    <style>
+/* Topics */
+.topics{
+  grid-template-columns:25% 25% 25% 25%;
+  display:grid;
+}
+.topics a{
+  font-weight:bold;
+  margin-top:25px;
+}
+@media only screen and (max-width:1000px){
+  .topics{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+}
+
+/* Products */
+.topic{
+  margin-bottom:25px;
+  color:var(--blue);
+  margin-top:75px;
+}
+.product{
+  grid-template-columns:25% 75%;
+  margin-bottom:100px;
+  position:relative;
+  display:grid;
+}
+.product div{
+  position:relative;
+}
+.product img{
+  position:relative;
+  width:60%;
+  left:20%;
+}
+@media only screen and (max-width:1000px){
+  .topic{
+    text-align:center;
+  }
+  .product{
+    grid-template-columns:100%;
+    text-align:center;
+  }
+  .product img{
+    width:40%;
+    left:0;
+  }
+}
+</style>
+  </head>
+  <body class="narrow">
+    <div class="navbar">
+  <a href="/">
+    <img class="icon" src="../res/lugocorp-hex.svg" title="Home">
+  </a>
+  <div>
+    <a href="#topics" title="Topics">Topics</a><a href="#products" title="Products">Products</a>  </div>
+</div>
+    <div class="narrow-content">
+      <h1 id="topics">Topics</h1>
+      <p>
+        Our products intersect with various other fields, so we've sorted them here by topic.
+        Pick one that best interests you and take a look around!
+        We've also got a few open beta and unannounced items up here.
+      </p>
+      <div class="topics">
+        <a href="#topic-health">Health</a>
+        <a href="#topic-linguistics">Linguistics</a>
+        <a href="#topic-development">Development</a>
+        <a href="#topic-gaming">Gaming</a>
+      </div>
+
+      <hr class="separator"/>
+
+      <h1 id="products">Products</h1>
+      <h1 class="topic" id="topic-health">Health</h1>
+      <!-- Ergonomicon -->
+      <h2>Coming soon...</h2>
+
+      <h1 class="topic" id="topic-linguistics">Linguistics</h1>
+      <!-- Pegasus -->
+      <div class="product">
+        <div><img src="../res/products/thoth-icon.svg"/></div>
+        <div>
+          <h2>Thoth</h2>
+          <span>
+            Thoth is a C++ library for language and word generation.
+            You can use it to produce endless human-readable strings in a procedural language.
+            Integrate it with your own projects as a C++ library or use it as a standalone command line tool!
+            <a href="products/thoth">See more</a>
+          </span>
+        </div>
+      </div>
+
+      <h1 class="topic" id="topic-development">Development</h1>
+      <!-- FeatherWheel, Overflow, Slime, Quetzal, Arcana -->
+      <!--<div class="product">
+        <div><img src="/res/products/moonshot.svg"/></div>
+        <div>
+          <h2>Moonshot</h2>
+          <span>
+            Coming soon
+          </span>
+        </div>
+      </div>-->
+      <div class="product">
+        <div><img src="../res/products/lodr.svg"/></div>
+        <div>
+          <h2>Lödr</h2>
+          <span>
+            Lödr is a mini-library that adds simple loading screens to your web projects.
+            It allows you to configure, display and countdown on boot screens with a minimal footprint API.
+            <a href="products/lodr">See more</a>
+          </span>
+        </div>
+      </div>
+      <div class="product">
+        <div><img src="../res/products/cairn.svg"/></div>
+        <div>
+          <h2>Cairn</h2>
+          <span>
+            Cairn allows you to package your PHP projects into a static multi-page website.
+            It makes use of Bash automation to handle all the index.php files in your project.
+            We developed it to use across our internal and client sites that use PHP for templating.
+            <a href="products/cairn">See more</a>
+          </span>
+        </div>
+      </div>
+      <div class="product">
+        <div><img src="../res/products/argzilla.svg"/></div>
+        <div>
+          <h2>Argzilla</h2>
+          <span>
+            Argzilla is an easy to use partial evaluator for creating argparse functionality.
+            It allows you to easily define command line arguments in a JSON file and then creates code to parse those inputs.
+            Argzilla supports various languages including C++, Java, Ruby, Python, Lua and Bash.
+            <a href="products/argzilla">See more</a>
+          </span>
+        </div>
+      </div>
+
+      <h1 class="topic" id="topic-gaming">Gaming</h1>
+      <div class="product">
+        <div><img src="../res/products/budgie.svg"/></div>
+        <div>
+          <h2>Budgie</h2>
+          <span>
+            Budgie is a lightweight game development framework for HTML5 browers.
+            Use our command line tool to start writing a JavaScript game in no time!
+            Budgie handles basic game functions such as event handling, asset loading and a sprite system.
+            The rest is up to you!
+            <a href="https://lugocorp.github.io/budgie/">See more</a>
+          </span>
+        </div>
+      </div>
+      <div class="product">
+        <div><img src="../res/products/supercharge.png"/></div>
+        <div>
+          <h2>Supercharge</h2>
+          <span>
+            Supercharge is a Minecraft mod that speeds up the core experience.
+            It boosts enemy spawn and drop rates, and enemy kills drop 4x as much experience.
+            It also supercharges ore placement in world generation, so you won't have to spend a long time looking for resources underground.
+            <a href="https://github.com/alugocp/supercharge">View on GitHub</a>
+          </span>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer">
+  LugoCorp, LLC
+</div>
+  </body>
+</html>

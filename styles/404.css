@@ -1,0 +1,24 @@
+.wrapper-404{
+  background-image:url("./res/bg.jpg");
+  min-height:calc(100vh - 152px);
+  background-position:center;
+  background-size:cover;
+  text-align:center;
+  position:relative;
+}
+.msg-404{
+  border-radius:var(--border-radius);
+  transform:translate(-50%,-50%);
+  padding:0 75px 35px 75px;
+  background-color:white;
+  position:absolute;
+  left:50%;
+  top:50%;
+}
+.msg-404 h1{
+  color:var(--blue);
+  font-size:100px;
+}
+.msg-404 p{
+  font-size:20px;
+}
